@@ -1,0 +1,12 @@
+.bitter-order-link {
+    @include link-reset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $bitter-green;
+}

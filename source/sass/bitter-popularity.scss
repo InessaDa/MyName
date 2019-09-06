@@ -1,0 +1,41 @@
+.bitter-popularity--title {
+    padding: 0 30px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.bitter-popularity--reason-title {
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bitter-popularity--list {
+    @include list-reset;
+    padding-bottom: 300px;
+    background-image: url(../img/sw-bitter/bitter-popularity.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 295px;
+}
+
+.bitter-popularity--list-item {
+    padding-left: 40px;
+    padding-right: 57px;
+    background-image: url(../img/sw-bitter/bitter-arrow.png);
+    background-repeat: no-repeat;
+    background-position: 11px 7px;
+}
+
+.bitter-popularity--list-item p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.bitter-popularity--description {
+    font-size: 14px;
+    line-height: 24px;
+}

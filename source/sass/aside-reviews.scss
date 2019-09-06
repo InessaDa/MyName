@@ -1,0 +1,23 @@
+.aside-reviews {
+   position: relative;
+   margin: 0 35px;
+}
+
+.aside-reviews--paragraph {
+    position: absolute;
+    top: -193px;
+    padding: 23px 23px;
+    font-size: 14px;
+    line-height: 24px;
+    border: 2px solid  $bitter-light-green;
+}
+
+.aside-reviews--link {
+   position: absolute;
+   top: -45px;
+   left: 67px;
+   padding-left: 6px;
+   padding-right: 6px;
+   background-color: $bitter-gray-back;
+   color: $bitter-light-green;
+}
