@@ -1,0 +1,40 @@
+.bitter--email-form__title {
+    padding-left: 66px;
+    padding-right: 60px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: $bitter-gray-text;
+}
+
+.bitter--email-form__input {
+    margin-bottom: 22px;
+    margin-left: 15px;
+    width: 90%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 14px;
+    color: $bitter-light-green;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid $bitter-light-green;
+    outline: none;
+}
+
+.bitter--email-form__btn {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $bitter-green;
+    border: none;
+    cursor: pointer;
+}

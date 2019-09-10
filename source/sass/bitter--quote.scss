@@ -1,0 +1,27 @@
+.bitter--quote__text {
+    margin-left: -10px;
+    padding-right: 8px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: $bitter-gray-text;
+}
+
+.bitter--quote__autor {
+    padding-left: 35px;
+    padding-right: 73px;
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.bitter--quote__date {
+    padding-left: 73px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b5b5b5;
+}

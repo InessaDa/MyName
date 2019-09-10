@@ -1,0 +1,26 @@
+.bitter-history {
+    margin: 0;
+    margin-top: -26px;
+    padding-bottom: 389px;
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 635px;
+}
+
+.bitter-history--title {
+   padding: 50px 50px 15px;
+   font-size: 20px;
+   line-height: 26px;
+   font-weight: 900;
+   text-align: center;
+   color: $bitter-gray-text;
+}
+
+.bitter-history--paragraph {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    color: $bitter-gray-text;
+}
