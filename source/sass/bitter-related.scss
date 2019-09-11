@@ -1,4 +1,5 @@
 .bitter-related {
+    padding-bottom: 32px;
     background-color: $bitter-gray-back;
 }
 
@@ -22,7 +23,8 @@
 .bitter-related--list-item__number {
     position: absolute;
     z-index: 0;
-    padding-left: 100px;
+    margin-top: -24px;
+    padding-left: 78px;
     color: #ffffff;
     font-size: 130px;
     font-weight: 900;
@@ -44,17 +46,17 @@
 .bitter-related--list-item:first-child .bitter-related--list-item__text {
     background-image: url(../img/sw-bitter/bitter-grass-icon.svg);
     background-repeat: no-repeat;
-    background-position: 120px 34px;
+    background-position: center;
 }
 
 .bitter-related--list-item:nth-child(2) .bitter-related--list-item__text {
     background-image: url(../img/sw-bitter/bitter-certificate-icon.svg);
     background-repeat: no-repeat;
-    background-position: 120px 34px;
+    background-position: center;
 }
 
 .bitter-related--list-item:last-child .bitter-related--list-item__text {
     background-image: url(../img/sw-bitter/bitter-instruction-icon.svg);
     background-repeat: no-repeat;
-    background-position: 115px 45px;
+    background-position: center;
 }

@@ -16,10 +16,11 @@
 
 .bitter-popularity--list {
     @include list-reset;
-    padding-bottom: 300px;
+    padding-bottom: 83%;
     background-image: url(../img/sw-bitter/bitter-popularity.jpg);
     background-repeat: no-repeat;
-    background-position: 0px 295px;
+    background-position: bottom;
+    background-size: contain;
 }
 
 .bitter-popularity--list-item {

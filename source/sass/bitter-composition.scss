@@ -1,0 +1,165 @@
+.bitter-composition--title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: $bitter-gray-text;
+}
+
+.bitter-composition--sub-title__list {
+    @include list-reset;
+    padding-left: 43px;
+    padding-right: 70px;
+}
+
+.bitter-composition--sub-title__list-item p {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: $bitter-gray-text;
+}
+
+.bitter-composition--sub-title__list-item::before {
+    content: "";
+    position: relative;
+    top: 32px;
+    left: -24px;
+    display: block;
+    width: 11px;
+    height: 11px;
+    background-color: $bitter-light-green;
+    border-radius: 50%;
+}
+
+.bitter-composition--list {
+    @include list-reset;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bitter-composition--list-item {
+    position: relative;
+    margin-top: 12px;
+    height: 300px;
+}
+
+.bitter-composition--list-item:first-child {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(2) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(3) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(4) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(5) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(6) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-06.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(7) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-07.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(8) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-08.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(9) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-09.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(10) {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-09.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item:last-child {
+    background-color: $bitter-gray-back;
+    background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-q.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-composition--list-item span,
+.bitter-composition--list-item p  {
+    position: absolute;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 900;
+    color: $bitter-light-green;
+}
+
+.bitter-composition--list-item span {
+    transform: rotate(-90deg) translateX(-23px);
+}
+
+.bitter-composition--list-item p {
+    position: absolute;
+    margin-top: 119px;
+    margin-left: 43%;
+    width: 300px;
+    transform:rotate(-90deg);
+}
+
+.bitter-composition--list-item:last-child .bitter-composition--secret-ingredient {
+    position: absolute;
+    top: 11px;
+    left: -68px;
+    transform: rotate(0deg);
+    width: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    color: $bitter-gray-text;
+    text-transform: uppercase;
+}
+
+.bitter-composition--description {
+    width: 215px;
+    margin-left: 17%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $bitter-gray-text;
+    text-align: center; 
+}

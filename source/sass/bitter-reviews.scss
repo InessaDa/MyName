@@ -1,0 +1,91 @@
+.bitter-reviews--title {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: $bitter-gray-text;
+}
+
+.bitter-tabs {
+    position: relative;
+}
+
+.bitter-reviews--list {
+    @include list-reset;
+    margin: 0;
+    padding-top: 35px;
+    padding-right: 21px;
+    padding-left: 29px;
+    display: none;
+}
+
+.bitter-label {
+    display: inline-block;
+    width: 109px;
+    margin: 0;
+    padding-left: 22px;
+    padding-right: 26px;
+    padding-top: 25px;
+    padding-bottom: 22px;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $bittr-reviews-gray-text;
+    background-color: #ffffff;
+}
+
+.bitter-reviews--list-item__text {
+    position: relative;
+    font-size: 14px;
+    font-weight: 300;
+    color: $bittr-reviews-gray-text;
+}
+
+.bitter-reviews--list-item__text::before {
+    position: absolute;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: $bitter-light-green;
+}
+
+.bitter--uppercase {
+    text-transform: uppercase;
+}
+
+.bitter-reviews--list-item__autor {
+    padding-bottom: 22px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #000000;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2 {
+    display: block;
+    background-color: $bitter-gray-back;
+}
+
+#tab1:checked + label,
+#tab2:checked + label {
+    color: $bitter-green;
+    background-color: $bitter-gray-back;
+}
+
+.bitter-reviews--link {
+    display: block;
+    margin: 0;
+    margin-top: -15px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    color: $bitter-green;
+    text-align: center;
+    background-color: $bitter-gray-back;
+}
+
+

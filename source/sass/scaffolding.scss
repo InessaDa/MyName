@@ -1,3 +1,25 @@
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/montserrat.woff), url(../fonts/montserrat.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/montserratbold.woff), url(../fonts/montserratbold.woff2);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Monserrat";
+  src: url(../fonts/montserratlight.woff), url(../fonts/montserratlight.woff2);
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;

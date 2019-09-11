@@ -1,0 +1,41 @@
+.bitter-quality {
+    margin-top: -33px;
+    background-color: $bitter-gray-back;
+}
+
+.bitter-quality--title {
+    padding-top: 60px;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: $bitter-gray-text;
+}
+
+.bitter-quality--warranty {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $bitter-gray-text;
+    text-align: center;
+}
+
+.bitter-quality--addition-title {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    color: $bitter-light-green;
+}
+
+.bitter-quality--addition-description {
+    padding-left: 25px;
+    padding-right: 33px;
+    font-size: 14px;
+    font-weight: 400;
+    color: $bitter-gray-text;
+}

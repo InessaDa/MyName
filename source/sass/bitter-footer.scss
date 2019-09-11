@@ -1,0 +1,13 @@
+.bitter-footer--links-list {
+    @include list-reset;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.bitter-footer-link {
+    display: block;
+    font-weight: 12px;
+    line-height: 30px;
+    color: #9a9a9a;
+    text-align: center;
+}
