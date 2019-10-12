@@ -25,3 +25,34 @@
     text-align: center;
     color: $bitter-gray-text;
 }
+
+@media (min-width: $tablet-width) {
+
+    .bitter-cooking-way {
+        margin-left: 65px;
+        margin-right: 69px;
+        margin-top: 110px;
+        margin-bottom: 110px;
+        border: 1px solid $bitter-light-green;
+    }
+
+    .bitter-cooking-way--title {
+        padding-right: 85px;
+        padding-left: 90px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .bitter-cooking-way--description {
+        padding-left: 70px;
+        padding-right: 59px;
+        font-size: 16px;
+    }
+
+    .bitter-cooking-way--consumption {
+        padding-top: 39px;
+        padding-bottom: 69px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

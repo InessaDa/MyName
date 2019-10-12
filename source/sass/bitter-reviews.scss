@@ -89,3 +89,47 @@
 }
 
 
+@media (min-width: $tablet-width) {
+    .bitter-reviews--title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-label {
+        display: inline;
+        padding-right: 82px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bitter-reviews--list {
+        padding-top: 0;
+        padding-bottom: 210px;
+    }
+
+    .bitter-reviews--list-item {
+        padding-left: 95px;
+        padding-right: 125px;
+    }
+
+    .bitter-reviews--list-item__text {
+        font-size: 16px;
+    }
+
+    .bitter-reviews--list-item:first-child .bitter-reviews--list-item__text {
+        padding-top: 69px;
+    }
+
+    .bitter-reviews--list-item:nth-child(2) .bitter-reviews--list-item__text {
+        padding-top: 71px;
+    }
+
+    .bitter-reviews--list-item__text::before {
+        top: 40px;
+    }
+
+    .bitter-reviews--link {
+        margin-top: -220px;
+    }
+}
+

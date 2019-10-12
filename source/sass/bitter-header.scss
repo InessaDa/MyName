@@ -8,6 +8,55 @@
     width: 112px;
 }
 
+.bitter-header__dilivery,
+.bitter-header__phone-note {
+    display: none;
+}
+
+
 .bitter-header__phone-link {
     font-size: 14px;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter-header {
+        position: relative;
+    }
+
+    .bitter-header__logo {
+        width: 200px;
+    }
+
+    .bitter-header__dilivery,
+    .bitter-header__phone-note{
+        display: block;
+    }
+
+    .bitter-header__dilivery {
+        font-size: 14px;
+        font-weight: 400;
+        color: $bitter-tablet-gray;
+    }
+
+    .bitter-header__phone-link {
+        padding-left: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        background-image: url(../img/sw-bitter/bitter-phone-icon.svg);
+        background-repeat: no-repeat;
+        background-position: 8px 4px;
+    }
+
+    .bitter-header__phone-wrap {
+         margin-right: 25px;
+    }
+    
+
+    .bitter-header__phone-note {
+        padding-left: 50px;
+        font-size: 12px;
+        font-weight: 400;
+        color: $bitter-tablet-gray;
+    }
+}
+

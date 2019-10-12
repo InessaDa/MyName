@@ -39,3 +39,72 @@
     font-weight: 400;
     color: $bitter-gray-text;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter-quality--title {
+        padding-bottom: 48px;
+        background-color: white;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .bitter-quality--warranty {
+        padding-left: 128px;
+        padding-right: 130px;
+        padding-bottom: 41px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .bitter-quality img {
+        width: 33%;
+        margin-left: 41px;
+    }
+
+    .bitter-quality__wrapper {
+        display: flex;
+    }
+
+    .bitter-quality--addition__wrap {
+        margin-left: 40px;
+        margin-right: 22px;
+        background-color: #ffffff;
+    }
+
+    .bitter-quality--addition-title {
+        position: relative;
+        z-index: 3;
+        padding-left: 64px;
+        text-align: start;
+    }
+
+    .bitter-quality--addition-title::before {
+        content: "";
+        width: 33px;
+        height: 341px;
+        position: absolute;
+        z-index: 0;
+        top: 11px;
+        left: 20px;
+        border-left: 2px solid $bitter-light-green;
+        border-top: 2px solid $bitter-light-green;
+    }
+
+    .bitter-quality--addition-title::after {
+        content: "";
+        width: 272px;
+        height: 341px;
+        position: absolute;
+        z-index: 0;
+        top: 11px;
+        left: 105px;
+        border-right: 2px solid $bitter-light-green;
+        border-top: 2px solid $bitter-light-green;
+    }
+
+    .bitter-quality--addition-description {
+        padding-left: 45px;
+        padding-right: 88px;
+        font-size: 16px;
+    }
+}

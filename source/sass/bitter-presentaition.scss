@@ -1,7 +1,7 @@
 .bitter-presentaition {
     margin: 0;
     background-color: #787b87;
-    background-image: url(../img/sw-bitter/bitter-mountine.jpg);
+    background-image: url(../img/sw-bitter/bitter-mountine-mob.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -26,4 +26,48 @@
     background-image: url(../img/sw-bitter/mob-bitter-pack.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
+}
+
+.bitter-presentaition--description {
+    display: none;
+}
+
+@media (min-width: $tablet-width) {
+    .bitter-presentaition {
+        background-color: #787b87;
+        background-image: url(../img/sw-bitter/bitter-mountine-tab.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+    .bitter-presentaition--title {
+        padding-left: 50px;
+        padding-top: 200px;
+        margin-bottom: -107px;
+        font-size: 14px;
+    }
+
+    .bitter-presentaition--sub-title {
+        padding-left: 360px;
+        padding-top: 72px;
+        padding-bottom: 535px;
+        font-size: 50px;
+        line-height: 60px;
+        text-align: start;
+        background-image: url(../img/sw-bitter/tab-bitter-pack.jpg);
+        background-repeat: no-repeat;
+        background-position: 33px 44px;;
+    }
+
+    .bitter-presentaition--description {
+        margin-top: -538px;
+        padding-left: 360px;
+        padding-right: 196px;
+        padding-bottom: 180px;
+        display: block;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ffffff;
+    }
 }

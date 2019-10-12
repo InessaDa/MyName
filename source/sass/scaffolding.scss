@@ -32,3 +32,17 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  .bitter-tablet-only {
+    display: none;
+  }
+
+  @media (min-width: $tablet-width) {
+    .bitter__mobile-only {
+      display: none;
+    }
+
+    .bitter-tablet-only {
+      display: block;
+    }
+  }

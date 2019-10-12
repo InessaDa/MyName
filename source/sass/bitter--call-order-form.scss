@@ -1,0 +1,96 @@
+.bitter--call-order-form__title,
+.bitter--call-order-form input {
+    display: none;
+}
+
+.bitter--call-order-form__link {
+@include link-reset;
+padding-top: 20px;
+padding-bottom: 20px;
+font-weight: 900;
+color: #ffffff;
+font-size: 12px;
+line-height: 22px;
+text-transform: uppercase;
+text-align: center;
+background-color: $bitter-green;
+}
+
+@media (min-width: $tablet-width) {
+
+.bitter--call-order-form__title {
+    display: block;
+}
+
+.bitter--call-order-form input {
+    position: relative;
+    z-index: 4;
+    display: inline;
+    margin-right: 20px;
+    padding-right: 60px;
+    padding-bottom: 11px;
+    color: $bitter-light-green;
+    border: none;
+    border-bottom: 1px solid $bitter-light-green;
+}
+
+.bitter--call-order-form input:focus,
+.bitter--call-order-form input:hover {
+    border: 1px solid $bitter-light-green;
+}
+
+.bitter--call-order-form input::placeholder {
+    font-size: 14px;
+    color: $bitter-light-green;
+}
+
+.bitter--call-order-form__first-input {
+    margin-left: 60px;
+}
+
+.bitter--call-order-form__title {
+    padding-left: 44px;
+    padding-top: 55px;
+    padding-right: 343px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $bitter-gray-text;
+}
+
+.bitter--call-order-form {
+    position: absolute;
+    top: 672px;
+    width: 572px;
+    margin-left: 188px;
+    background-color: #ffffff;
+ }
+
+.bitter--call-order-form__wrap {
+    position: relative;
+    display: flex;
+    padding-left: 43px;
+ }
+
+ .bitter--call-order-form::before {
+    position: absolute;
+    top: 23px;
+    left: 29px;
+    content: "";
+    display: block;
+    width: 514px;
+    height: 265px;
+    background: transparent;
+    border: 1px solid $bitter-light-green;
+ }
+
+ .bitter--call-order-form__link {
+     width: 250px;
+     margin-left: 294px;
+     margin-top: 35px;
+     background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+     background-repeat: no-repeat;
+     background-position: 178px 26px;
+ }
+}

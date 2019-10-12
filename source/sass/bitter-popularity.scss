@@ -45,3 +45,53 @@
     color: $bitter-gray-text;
     text-align: center;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter-popularity {
+        position: relative;
+    }
+
+    .bitter-popularity--title {
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-popularity--reason-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .bitter-popularity--list {
+        padding-left: 17%;
+        padding-right: 13%;
+    }
+
+    .bitter-popularity--list-item p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bitter-popularity--description {
+        position: absolute;
+        left: 10%;
+        top: 83%;
+        width: 72%;
+        padding: 15px 35px; 
+        padding-bottom: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        background-color: #ffffff;
+    }
+
+    .bitter-popularity--description p {
+        padding-right: 100px;
+        padding-top: 40px;
+        padding-left: 25px;
+        padding-bottom: 64px;
+        background-color: #ffffff;
+        border: 2px solid $bitter-green;
+    }
+}

@@ -28,3 +28,28 @@
     background-position: bottom;
     background-size: contain;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter-history {
+        position: relative;
+        margin-top: -41px;
+        padding-bottom: 52px;
+    }
+
+    .bitter-history--title {
+        padding-top: 135px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-history--paragraph {
+        padding-left: 25px;
+        font-size: 16px;
+    }
+
+    .bitter-history--portrait {
+        position: absolute;
+        left: 50%;
+        width: 352px;
+    }
+}

@@ -11,32 +11,45 @@
     <body class="bitter-body">
     <header class="bitter-header">
         <h1 class="visually-hidden">Сайт знаменитого Шведского бальзама</h1>
-        <img class="bitter-header__logo" src="img/sw-bitter/bitter-logo.png">
-       <a class="bitter-header__phone-link" hrf="tel:+7-800-000-00-00">8-800-000-00-00</a>
+        <picture>
+        <source media="(min-width: 760px)" srcset="img/sw-bitter/bitter-logo-tab.png">
+        <img class="bitter-header__logo" src="img/sw-bitter/bitter-logo-mob.png">
+        </picture>
+        <p class="bitter-header__dilivery">Доставка по всей России</p>
+        <div class="bitter-header__phone-wrap">
+        <a class="bitter-header__phone-link" hrf="tel:+7-800-000-00-00">8-800-000-00-00</a>
+        <p class="bitter-header__phone-note">Звонок бесплатный</p>
+        </div>
     </header>
     <main class="page">
     <section class="bitter-presentaition">
         <p class="bitter-presentaition--title">Сбор трав</p>
         <h3 class="bitter-presentaition--sub-title">Шведская горечь</h3>
-        <a href="#" class="bitter-order-link">Узнать больше</a>
+        <p class="bitter-presentaition--description">Не имеет аналогов в мире по оздоровительной силе и широте лечебных свойств</p>
     </section>
-    <section class="bitter-featers">
-        <ul class="bitter-featers--list">
-            <li class="bitter-featers--list-item">
-                <h6 class="bitter-featers--list-item__title">1978г</h6>
-                <p class="bitter-featers--list-item__description">Европейцы используют шведскую горечь еще с 1978 года</p>
+    <form method="POST" action="#" class="bitter--call-order-form">
+            <h6 class="bitter--call-order-form__title">Узнайте подробнее о бальзаме</h6>
+            <input class="bitter--call-order-form__first-input" type="text" value="" name="Имя" placeholder="Имя">
+            <input type="text" value="" name="Телефон" placeholder="Телефон">
+            <a href="#" class="bitter--call-order-form__link">Узнать <span class="bitter__mobile-only">больше</span></a>
+    </form>
+    <section class="bitter-features">
+        <ul class="bitter-features--list">
+            <li class="bitter-features--list-item">
+                <h6 class="bitter-features--list-item__title">1978г</h6>
+                <p class="bitter-features--list-item__description">Европейцы используют шведскую горечь еще с 1978 года</p>
             </li>
-            <li class="bitter-featers--list-item">
-                <h6 class="bitter-featers--list-item__title">104 года</h6>
-                <p class="bitter-featers--list-item__description">104 года прожил автор бальзама</p>
+            <li class="bitter-features--list-item">
+                <h6 class="bitter-features--list-item__title">104 года</h6>
+                <p class="bitter-features--list-item__description">104 года прожил автор бальзама</p>
             </li>
-            <li class="bitter-featers--list-item">
-                <h6 class="bitter-featers--list-item__title">40 показаний</h6>
-                <p class="bitter-featers--list-item__description">Больше 40 показаний к применению</p>
+            <li class="bitter-features--list-item">
+                <h6 class="bitter-features--list-item__title">40 показаний</h6>
+                <p class="bitter-features--list-item__description">Больше 40 показаний к применению</p>
             </li>
-            <li class="bitter-featers--list-item">
-                <h6 class="bitter-featers--list-item__title">24 языка</h6>
-                <p class="bitter-featers--list-item__description">8 млн книг на 24 языках продано о бальзаме</p>
+            <li class="bitter-features--list-item">
+                <h6 class="bitter-features--list-item__title">24 языка</h6>
+                <p class="bitter-features--list-item__description">8 млн книг на 24 языках продано о бальзаме</p>
             </li>
         </ul>
     </section>
@@ -63,19 +76,21 @@
                 <span>05.</span>
                 <p><strong>Головные боли</strong></p>
             </li>
-            <li class="bitter-indications--list-item">
+        </ol>
+        <ol class="bitter-indications--list bitter-indications--second-list">
+            <li>
                 <span>06.</span>
-                <p>Синяки. шишки, ожогои, порезы долго не проходят</p>
+                <p>Синяки. шишки, ожогои, порезы<br class="bitter-tablet-only"> долго не проходят</p>
             </li>
-            <li class="bitter-indications--list-item">
+            <li>
                 <span>07.</span>
-                <p>Плохо засыпаете и часто просыпаетесь</p>
+                <p>Плохо засыпаете и часто<br class="bitter-tablet-only"> просыпаетесь</p>
             </li>
-            <li class="bitter-indications--list-item">
+            <li>
                 <span>08.</span>
                 <p>Проблемы с желудком</p>
             </li>
-            <li class="bitter-indications--list-item">
+            <li>
                 <span>09.</span>
                 <p>Стресс</p>
             </li>
@@ -85,7 +100,7 @@
         <p class="bitter-aside__reviews--paragraph">Более 2000 покупателей доказали эффективность &#171;Шведской горечи&#187; в каждом из этих случаев</p>
         <a href="#" class="bitter-aside__reviews--link">Читать отзывы</a>
     </aside>
-    <a href="#" class="bitter-order-link">Избавиться от проблем</a>
+    <a href="#" class="bitter-order-link bitter-order-link__first-btn">Избавиться от проблем</a>
     <section class="bitter-popularity">
         <h4 class="bitter-popularity--title">Почему Шведская Горечь завоевала такую популярность?</h4>
         <p class="bitter-popularity--reason-title">Вот лишь несколько причин:</p>
@@ -103,14 +118,17 @@
                 <p>Эффект от применения можно увидеть сразу</p>
             </li>
         </ul>
-        <p class="bitter-popularity--description">Даже в странах с очень высоким уровнем медицины, таких как Германия и Австрия, бальзам Шведская горечь продается в каждой аптеке!</p>
-        <a href="#" class="bitter-order-link">Получить к себе в аптечку</a>
+        <div class="bitter-popularity--description">
+        <p>Даже в странах с очень высоким уровнем медицины, таких как Германия и Австрия, бальзам Шведская горечь продается в каждой аптеке!</p>
+        <a href="#" class="bitter-order-link bitter-order-link__second-btn">Получить <span class="bitter-tablet-only">средство-панацею</span> к себе в аптечку</a>
+        </div>
     </section>
     <section class="bitter-history">
         <h4 class="bitter-history--title">Удивительная<br> история возникновения бальзама</h4>
         <p class="bitter-history--paragraph">Далеко не у каждого лекарственного препарата есть такая удивительная история возникновения, уходящая к временам Парацельса, как у &#171;Шведской горечи&#187;. Всю свою жизнь Парацельс искал элексир долголетия!</p>
         <p class="bitter-history--paragraph">Он эксперементировал с рецептами, в которых горькие коренья комбини-ровались с разными лекарственными травами. Позднее в 18 веке на основа-нии оставшихся после Парацельса исследований шведский доктор Клауст Замст создал рецепт удивительного элексира, который он принимал всю жизнь. Кстати, умер доктор Замст на 104-м году жизни, упав с лошади при верховой езде.</p>
         <p class="bitter-history--paragraph">В конце прошлого века рецепт попал к известной австрийской травнице Марии Трэбэн, которая, изучив и дополнив его, популяризовала в странах Европы. Теперь сбор трав &#171;Шведская горечь&#187; помогает людям по всему миру.</p>
+        <img class="bitter-history--portrait" src="img/sw-bitter/bitter-portrait.jpg">
     </section>
     <form method="POST" action="#" class="bitter--email-form">
         <p class="bitter--email-form__title">
@@ -127,18 +145,15 @@
         <span class="bitter--quote__date">/1620-1724г/</span>
     </blockquote>
     <section class="bitter-related">
-        <h4 class="bitter-related--title">Что вы получите вместе со сбором трав &#171;Шведская горечь&#187;?</h4>
+        <h4 class="bitter-related--title">Что вы получите вместе<br class=".bitter-tablet-only"> со сбором трав &#171;Шведская горечь&#187;?</h4>
         <ul class="bitter-related--list">
             <li class="bitter-related--list-item">
-                <span class="bitter-related--list-item__number">01</span>
                 <p class="bitter-related--list-item__text">Сбор трав</p>
             </li>
             <li class="bitter-related--list-item">
-                <span class="bitter-related--list-item__number">02</span>
                 <p class="bitter-related--list-item__text">Инструкцию по применению</p>
             </li>
             <li class="bitter-related--list-item">
-                <span class="bitter-related--list-item__number">03</span>
                 <p class="bitter-related--list-item__text">Сертификат качества</p>
             </li>
         </ul>
@@ -201,7 +216,7 @@
             </li>
          </ol>
         <p class="bitter-composition--description">Все травы в составе бальзама обладают сильным очищающим воздействием, при этом каждый из компонентов усиливают дейс-твие остальных.</p>
-         <a href="#" class="bitter-order-link">Заказать сбор трав</a>
+         <a href="#" class="bitter-order-link bitter-order-link__third-btn">Заказать сбор трав</a>
     </section>
     <section class="bitter-reviews">
         <h4 class="bitter-reviews--title">Отзывыв о &#171;Шведской горечи&#187;</h4>
@@ -234,26 +249,31 @@
                 <a href="#" class="bitter-reviews--link">Читать еще отзывы</a>
             </div>
         </div>
-        <a href="#" class="bitter-order-link">Присоединиться к тем,<br> кто решил свои проблемы</a>
+        <a href="#" class="bitter-order-link bitter-order-link__fourth-btn">Присоединиться к тем,<br> кто решил свои проблемы</a>
     </section>
     <section class="bitter-cooking-way">
         <h4 class="bitter-cooking-way--title">Вы принимаете участие в создании элексира</h4>
         <p class="bitter-cooking-way--description">Приготовление бальзама потребует от вас минимум усилий. Достаточно залить травы 1,5 литрами водки и на-стоять в течение 14 дней ежедневно взбалтывая.</p>
         <p class="bitter-cooking-way--description">Но даже такое небольшое количество действий даст вам возможность почув-ствовать себя настоящим врачевателем и привнесет вашу энергетику в полу-чившийся целительный элексир.</p>
         <p class="bitter-cooking-way--consumption">Настоя одной упаковкой хватает на 4-5 месяцев</p>
-        <a class="bitter-order-link">Создать эликсир<br> молодости и здоровья</a>
+        <a class="bitter-order-link bitter-order-link__fifth-btn">Создать эликсир<br class="bitter__mobile-only"> молодости и здоровья</a>
     </section>
     <section class="bitter-quality">
         <h4 class="bitter-quality--title">Гарантия качества</h4>
         <p class="bitter-quality--warranty">Если бальзам вам не понравится, мы вернем деньги. Сразу  и без лишних вопросов. Мы дорожим своей репутацией и уверенны в продукте на 100%</p>
+        <div class="bitter-quality__wrapper">
         <img src="img/sw-bitter/certificate.png">
+        <div class="bitter-quality--addition__wrap">
         <p class="bitter-quality--addition-title">но:</p>
         <p class="bitter-quality--addition-description">Этот элексир &ndash; именно то средство, которое вам всегда захочется иметь дома в аптечке и рекомендовать своим близким.</p>
         <p class="bitter-quality--addition-description">К каждой упаковке &#171;Шведской горечи&#187; мы прикладываем немецкий сертифи-кат качества.</p>
-        <a href="#" class="bitter-order-link">Заказать сбор трав</a>
+        </div>
+        </div>
+        <a href="#" class="bitter-order-link bitter-order-link__sixth-btn">Заказать сбор трав</a>
     </section>
     </main>
     <footer class="bitter-footer">
+        <img class="bitter-footer__logo" src="img/sw-bitter/bitter-logo-tab.png">
         <ul class="bitter-footer--links-list">
             <li class="bitter-footer--links-list__item">
                 <a href="#" class="bitter-footer-link">Политика конфеденциальности</a>
@@ -265,6 +285,10 @@
                 <a href="#" class="bitter-footer-link">Согласие с рассылкой</a>
             </li>
         </ul>
+        <div class="bitter-footer__phone-wrap">
+            <a class="bitter-footer__phone-link" hrf="tel:+7-800-000-00-00">8-800-000-00-00</a>
+            <p class="bitter-footer__phone-note">Звонок бесплатный</p>
+        </div>
     </footer>
     </body>
 </html>

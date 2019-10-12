@@ -10,3 +10,76 @@
     text-align: center;
     background-color: $bitter-green;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter-order-link {
+        font-size: 14px;
+    }
+
+    .bitter-order-link__first-btn {
+        width: 393px;
+        margin-top: 49px;
+        margin-left: 197px;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 322px 28px;
+    }
+
+    .bitter-order-link__second-btn {
+        position: relative;
+        z-index: 2;
+        width: initial;
+        padding-left: 40px;
+        padding-right: 84px;
+        margin-top: -46px;
+        margin-left: 0;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 90%;
+    } 
+
+    .bitter-order-link__second-btn span {
+        display: inline;
+    }
+
+    .bitter-order-link__third-btn {
+        position: relative;
+        width: 324px;
+        margin-left: 421px;
+        margin-top: -78px;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 90%;
+    }
+
+    .bitter-order-link__fourth-btn {
+        position: relative;
+        width: 578px;
+        margin-left: 95px;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 90%;
+    } 
+
+    .bitter-order-link__fifth-btn {
+        position: relative;
+        width: 501px;
+        margin-left: 70px;
+        margin-top: -18px;
+        margin-bottom: 55px;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 96%;
+    }
+
+    .bitter-order-link__sixth-btn {
+        position: relative;
+        top: -81px;
+        left: 352px;
+        z-index: 3;
+        width: 359px;
+        background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
+        background-repeat: no-repeat;
+        background-position: 87%;
+    }
+}

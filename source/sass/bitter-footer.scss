@@ -1,3 +1,9 @@
+.bitter-footer__logo,
+.bitter-footer__phone-link,
+.bitter-footer__phone-note {
+    display: none;
+}
+
 .bitter-footer--links-list {
     @include list-reset;
     padding-top: 30px;
@@ -10,4 +16,46 @@
     line-height: 30px;
     color: #9a9a9a;
     text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+   .bitter-footer {
+       display: flex;
+       justify-content: space-between;
+   }
+
+   .bitter-footer__logo,
+   .bitter-footer__phone-link,
+   .bitter-footer__phone-note {
+       display:  block;
+   }
+
+   .bitter-footer__logo {
+       width: 200px;
+       height: fit-content;
+       margin-top: 30px;
+       margin-left: 22px;
+   }
+
+   .bitter-footer__phone-link {
+    padding-left: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: url(../img/sw-bitter/bitter-phone-icon.svg);
+    background-repeat: no-repeat;
+    background-position: 8px 4px;
+}
+
+.bitter-footer__phone-wrap {
+    margin-top: 30px;
+    margin-right: 25px;
+}
+
+
+.bitter-footer__phone-note {
+    padding-left: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    color: $bitter-tablet-gray;
+}
 }

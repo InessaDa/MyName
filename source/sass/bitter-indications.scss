@@ -10,38 +10,38 @@
 .bitter-indications--list {
     @include list-reset;
     padding-left: 10px;
-    padding-bottom: 165px;
+    padding-right: 20px;
     background-color: $bitter-gray-back;
 }
 
 .bitter-indications--list-item {
     padding-top: 15px;
     padding-bottom: 15px;
-
+    border-bottom: 1px solid $bitter-gray-underline;
 }
 
-.bitter-indications--list-item::after {
-    content: "";
-    position: relative;
-    top: 26px;
-    left: 14px;
-    display: block;
-    width: 95%;
-    height: 1px;
-    background-color: $bitter-gray-underline;
+.bitter-indications--second-list li {
+    border-bottom: 1px solid $bitter-gray-underline;
 }
 
-.bitter-indications--list-item:last-child::after {
-    display: none;
+.bitter-indications--second-list li:last-child {
+    border: none;
 }
 
-.bitter-indications--list-item span {
+.bitter-indications--list-item span,
+.bitter-indications--second-list li span {
     position: relative;
     top: 35px;
     color: $bitter-light-green;
 }
 
-.bitter-indications--list-item p {
+.bitter-indications--second-list li span,
+.bitter-indications--second-list li p {
+    padding-top: 15px;
+}
+
+.bitter-indications--list-item p,
+.bitter-indications--second-list li p  {
    padding-left: 25px;
    font-size: 14px;
    line-height: 24px;
@@ -53,4 +53,100 @@
     line-height: 20px;
     text-transform: uppercase;
     color: $bitter-gray-text;
+}
+
+.bitter-indications--second-list {
+    padding-bottom: 200px;
+}
+
+@media (min-width: $tablet-width) {
+    .bitter-indications--title {
+        padding-left: 195px;
+        padding-right: 195px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-indications--list {
+        padding-left: 22px;
+    }
+
+    .bitter-indications--list-item p {
+        font-size: 16px;
+    }
+
+    .bitter-indications--list-item strong {
+        font-size: 14px;
+    }
+
+
+    .bitter-indications--second-list {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 960px;
+        background-image: url(../img/sw-bitter/bitter-symptoms-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -32px 212px;
+    }
+
+    .bitter-indications--second-list::after {
+        position: absolute;
+        top: 500px;
+        left: 250px;
+        display: block;
+        width: 25px;
+        height: 22px;
+        padding-top: 3px;
+        content: "01";
+        font-size: 12px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        background-color: $bitter-light-green;
+        border: 11px solid $bitter-gray-back;
+        border-radius: 50%;
+        
+    }
+
+    .bitter-indications--second-list li {
+        position: relative;
+        width: 305px;
+    }
+
+    .bitter-indications--second-list li p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .bitter-indications--list-item span {
+        top: 38px;
+    }
+
+    .bitter-indications--second-list li span {
+        top: 49px;
+    }
+
+    .bitter-indications--second-list li:first-child {
+        width: 50%;
+        order: 0;
+    }
+
+    .bitter-indications--second-list li:nth-child(2) {
+        flex-grow: 1;
+        order: 3;
+    }
+
+    .bitter-indications--second-list li:nth-child(3) {
+        width: 50%;
+        order: 2;
+    }
+    
+    .bitter-indications--second-list li:last-child {
+        flex-grow: 1;
+        order: 4;
+        border-bottom: 1px solid $bitter-gray-underline;
+    }
+
 }

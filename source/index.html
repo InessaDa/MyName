@@ -11,20 +11,35 @@
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body class="body">
-        <header>
+        <header class="main-header">
+            <a class="main-header__nav-btn-burger">
+                <span class="main-header__nav-btn-burger--top"></span>
+                <span class="main-header__nav-btn-burger--center"></span>
+                <span class="main-header__nav-btn-burger--bottom"></span>
+            </a>
+            <a class="main-header__nav-btn-desc">Menu</a>
         </header>
         <main class="main-content">
-            <ul class="btn-list">
-                <li class="btn-list__item">
-                   <a class="btn" href="sw-bitter.html">Шведский бальзам</a>
-                </li>
-                <li class="btn-list__item">
-                        <a class="btn" href="#">2 сайт</a>
-                </li>
-                <li class="btn-list__item">
-                    <a class="btn" href="#">3 сайт</a>
-                </li>
-        </ul>
+            <nav class="main-nav">
+                <ul class="main-nav--list">
+                    <li class="main-nav--list__item">
+                            <a href="tecnology.html" class="main-nav--list__item-link">Технологии</a>
+                    </li>
+                    <li class="main-nav--list__item">
+                            <a href="#" class="main-nav--list__item-link">Инструменты</a>
+                    </li>
+                    <li class="main-nav--list__item">
+                            <a href="#" class="main-nav--list__item-link">Важные моменты</a>
+                    </li>
+                    <li class="main-nav--list__item">
+                        <a href="examples.html" class="main-nav--list__item-link">Примеры</a> 
+                    </li>
+                </ul>
+            </nav>
         </main>
+        <footer>
+            <p class="">Все картинки взяты из выдачи google, авторские права принадлежат авторам</p>
+        </footer>
+        <script src="js/menu-btn.js"></script>
     </body>
 </html>

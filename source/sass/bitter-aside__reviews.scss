@@ -5,7 +5,7 @@
 
 .bitter-aside__reviews--paragraph {
     position: absolute;
-    top: -193px;
+    top: -182px;
     padding: 23px 23px;
     font-size: 14px;
     line-height: 24px;
@@ -26,11 +26,42 @@
 
 .bitter-aside__reviews--link {
    position: absolute;
-   top: -53px;
-   left: 67px;
+   top: -44px;
+   left: 59px;
    z-index: 3;
    padding-left: 6px;
    padding-right: 6px;
    background-color: $bitter-gray-back;
    color: $bitter-light-green;
+}
+
+@media (min-width: $tablet-width) {
+   .bitter-aside__reviews {
+      margin-right: 173px;
+      margin-left: 199px;
+   }
+
+   .bitter-aside__reviews--paragraph {
+      top: -150px;
+      padding-left: 55px;
+      padding-right: 54px;
+      padding-bottom: 50px;
+      padding-top: 38px;
+      font-size: 16px;
+      line-height: 24px;
+      background-color: $bitter-gray-back;
+   }
+
+   .bitter-aside__reviews--paragraph::before {
+      top: 21px;
+      left: 18px;
+      display: block;
+      width: 90%;
+      height: 112px;
+   }
+
+   .bitter-aside__reviews--link {
+      top: -9px;
+      left: 116px;
+   }
 }

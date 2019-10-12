@@ -43,20 +43,74 @@
     text-align: center;
 }
 
-.bitter-related--list-item:first-child .bitter-related--list-item__text {
-    background-image: url(../img/sw-bitter/bitter-grass-icon.svg);
+.bitter-related--list-item:first-child {
+    background-image: url(../img/sw-bitter/bitter-grass-icon.svg), url(../img/sw-bitter/bitter-01-mob.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.bitter-related--list-item:nth-child(2) .bitter-related--list-item__text {
-    background-image: url(../img/sw-bitter/bitter-certificate-icon.svg);
+.bitter-related--list-item:nth-child(2) {
+    background-image: url(../img/sw-bitter/bitter-certificate-icon.svg), url(../img/sw-bitter/bitter-02-mob.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.bitter-related--list-item:last-child .bitter-related--list-item__text {
-    background-image: url(../img/sw-bitter/bitter-instruction-icon.svg);
+.bitter-related--list-item:last-child {
+    background-image: url(../img/sw-bitter/bitter-instruction-icon.svg), url(../img/sw-bitter/bitter-03-mob.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (min-width: $tablet-width) {
+    .bitter-related {
+        margin-top: -41px;
+    }
+
+    .bitter-related--title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-related--list {
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-right: 15px;
+        margin-bottom: 60px;
+        padding: 15px;
+        background-color: #ffffff;
+    }
+
+    .bitter-related--list-item {
+        width: 225px;
+        background-color: #ffffff;
+        border: 2px solid $bitter-gray-back;
+    }
+
+    .bitter-related--list-item__text {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    
+.bitter-related--list-item:first-child {
+    margin-right: 10px;
+    background-image: url(../img/sw-bitter/bitter-grass-icon.svg), url(../img/sw-bitter/bitter-01-tablet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-related--list-item:nth-child(2) {
+    margin-right: 10px;
+    background-image: url(../img/sw-bitter/bitter-certificate-icon.svg), url(../img/sw-bitter/bitter-02-tablet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitter-related--list-item:last-child {
+    background-image: url(../img/sw-bitter/bitter-instruction-icon.svg), url(../img/sw-bitter/bitter-03-tablet.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 }

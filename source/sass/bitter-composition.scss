@@ -39,8 +39,9 @@
 
 .bitter-composition--list-item {
     position: relative;
-    margin-top: 12px;
+    margin: 12px auto;
     height: 300px;
+    max-width: 310px;
 }
 
 .bitter-composition--list-item:first-child {
@@ -162,4 +163,53 @@
     font-weight: 400;
     color: $bitter-gray-text;
     text-align: center; 
+}
+
+@media (min-width: $tablet-width) {
+    .bitter-composition {
+        position: relative;
+    }
+
+    .bitter-composition--title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .bitter-composition--sub-title__list {
+        margin-left: 135px;
+        margin-right: 135px;
+    }
+
+    .bitter-composition--sub-title__list-item p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .bitter-composition--list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    .bitter-composition--list-item {
+        width: 325px;
+        max-width: 325px;
+        margin: 0;
+        margin-bottom: 65px;
+    }
+
+    .bitter-composition--description {
+        width: 298px;
+        margin-top: -364px;
+        margin-left: 420px;
+        padding-top: 50px;
+        padding-left: 26px;
+        padding-bottom: 126px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: start;
+        border: 1px solid $bitter-light-green;
+    }
+ 
 }

@@ -1,0 +1,81 @@
+.main-nav--list {
+    @include list-reset;
+    width: 0;
+    margin-left: -250px;
+    transition: all 1s ease;
+}
+
+.main-nav--list-active {
+   width: 92%;
+   height: 100%;
+   margin-left: 0;
+}
+
+
+.main-nav--list__item {
+    margin-left: 0;
+    border-bottom: 2px solid black;
+}
+
+.main-nav--list__item:nth-child(1) {
+    background-image: url(../img/index-img/tecnology.jpg);
+    background-size: cover;
+}
+
+.main-nav--list__item:nth-child(2) {
+    background-image: url(../img/index-img/instruments.jpg);
+    background-size: cover;
+}
+
+.main-nav--list__item:nth-child(3) {
+    background-image: url(../img/index-img/important-moments.jpg);
+    background-size: cover;
+}
+
+.main-nav--list__item:nth-child(4) {
+    background-image: url(../img/index-img/examples.jpg);
+    background-size: cover;
+    
+}
+
+.main-nav--list__item-link {
+    @include link-reset;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    transition: background-color 2s ease;
+}
+
+
+@media (min-width: $tablet-width) {
+    .main-nav--list-active {
+        width: 75%;
+    }
+
+    .main-nav--list__item-link {
+        padding-top: 55px;
+        padding-left: 45px;
+        padding-bottom: 55px;
+        font-size: 22px;
+        font-weight: 300;
+    }
+
+    .main-nav--list__item-link:hover {
+        background-color: black;
+        background-image: url(../img/index-img/closed-tag-menu.png);
+        background-repeat: no-repeat;
+        background-position: 95%;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .main-nav--list__item-link {
+        padding-top: 90px;
+        padding-left: 65px;
+        padding-bottom: 90px;
+        font-size: 28px;
+    }
+}

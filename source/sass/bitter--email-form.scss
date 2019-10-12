@@ -38,3 +38,25 @@
     border: none;
     cursor: pointer;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter--email-form {
+        width: 50%;
+    }
+
+    .bitter--email-form__title {
+        padding-top: 60px;
+        padding-bottom: 45px;
+        text-align: start;
+    }
+
+    .bitter--email-form__input {
+        margin-bottom: 30px;
+    }
+
+    .bitter--email-form__btn {
+        width: 80%;
+        margin-left: 34px;
+        margin-bottom: 70px;
+    }
+}

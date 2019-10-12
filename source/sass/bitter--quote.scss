@@ -25,3 +25,44 @@
     font-weight: 400;
     color: #b5b5b5;
 }
+
+@media (min-width: $tablet-width) {
+    .bitter--quote {
+        position: relative;
+    } 
+
+    .bitter--quote::before {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: $bitter-green;
+        display: block;
+    }
+
+    .bitter--quote::after {
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: $bitter-green;
+        display: block;
+    }
+
+    .bitter--quote__text {
+        padding-top: 50px;
+        padding-bottom: 30px;
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .bitter--quote__autor {
+        padding-bottom: 50px;
+    }
+
+    .bitter--quote__date {
+        position: absolute;
+        top: 80%;
+        left: 56%;
+    }
+}
