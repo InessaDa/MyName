@@ -11,32 +11,46 @@
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body class="body">
-        <header class="main-header">
-            <a class="main-header__nav-btn-burger">
-                <span class="main-header__nav-btn-burger--top"></span>
-                <span class="main-header__nav-btn-burger--center"></span>
-                <span class="main-header__nav-btn-burger--bottom"></span>
-            </a>
-            <a class="main-header__nav-btn-desc">Menu</a>
-        </header>
+            <header class="main-header">
+                    <a class="main-header__nav-btn-burger">
+                        <span class="main-header__nav-btn-burger--top"></span>
+                        <span class="main-header__nav-btn-burger--center"></span>
+                        <span class="main-header__nav-btn-burger--bottom"></span>
+                    </a>
+                    <img src="img/index-img/mill_logo.png" class="main-header__logo">
+                    <nav class="main-nav">
+                            <ul class="main-nav--list">
+                                <li class="main-nav--list__item">
+                                        <a href="index.html" class="main-nav--list__item-link main-nav--list__item-index-link">Назад на главную</a>
+                                </li>
+                                <!--<li class="main-nav--list__item">
+                                        <a href="instruments.html" class="main-nav--list__item-link">Инструменты</a>
+                                </li>-->
+                                <li class="main-nav--list__item">
+                                        <a href="important-moments.html" class="main-nav--list__item-link">Важные моменты</a>
+                                </li>
+                                <li class="main-nav--list__item">
+                                    <a href="examples.html" class="main-nav--list__item-link">Примеры</a> 
+                                </li>
+                            </ul>
+                        </nav>
+                </header>
         <main class="main-content">
-                <nav class="main-nav">
-                    <ul class="main-nav--list">
-                        <li class="main-nav--list__item">
-                                <a href="index.html" class="main-nav--list__item-link main-nav--list__item-index-link">Главная</a>
-                        </li>
-                        <li class="main-nav--list__item">
-                                <a href="#" class="main-nav--list__item-link">Инструменты</a>
-                        </li>
-                        <li class="main-nav--list__item">
-                                <a href="#" class="main-nav--list__item-link">Важные моменты</a>
-                        </li>
-                        <li class="main-nav--list__item">
-                            <a href="examples.html" class="main-nav--list__item-link">Примеры</a> 
-                        </li>
-                    </ul>
-                </nav>
-            </main>
+            <h2 class="main__tecnology--title">Технологии</h2>
+            <p class="main__tecnology--description">В этом разделе вас ждут статьи о различных технологиях, применяемых в современном сайтостроении. <br> Так же вы можете заказать консультацию по телефону или видеосвязи, что бы как можно быстрее определиться с технологическим стеком, подходящим под ваши конкретные нужды.</p>
+            <form action="send.php" method="POST" class="main__tecnology--order-form">
+            <fieldset>
+                <legend>Заказать консультацию</legend>
+                <input type="text" class="main__tecnology--order-form-input" name="phone" value="" placeholder="Введите номер телефона или логин Skype">
+                <textarea name="comment" class="main__tecnology--order-form-comment" rows="8">Здесь вы можете указать желаемое время звонка и ваш часовой пояс. Так же вы можете осветить особо интересующие вас моменты разработки сайтов, что бы наш сотрудник был на 100% готов удовлетворить ваше любопытство.</textarea>
+                <button type="submit">Жду звонка!</button>
+            </fieldset>
+            </form>
+
+        </main>
+        <footer class="main-footer">
+            <p class="">* все картинки взяты из выдачи google, авторские права принадлежат авторам</p>
+        </footer>
         <script src="js/menu-btn.js"></script>
     </body>
-    </html>
+</html>

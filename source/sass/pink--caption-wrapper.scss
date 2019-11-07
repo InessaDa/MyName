@@ -1,0 +1,12 @@
+.pink--caption-wrapper {
+  display: flex;
+  min-height: 66px;
+  border-bottom: 1px solid #000000;
+}
+
+
+@media (min-width: $pink--desktop-width) {
+  .pink--caption-wrapper {
+    border: none;
+  }
+}

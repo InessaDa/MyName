@@ -1,0 +1,53 @@
+.pink--offers {
+  margin-top: 279px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $pink--dark-grey;
+}
+
+.pink--offers__title--question{
+  text-align: center;
+}
+
+.pink--offers__title--answer {
+  margin-top: 29px;
+  text-align: center;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--offers {
+    margin-top: -242px;
+    line-height: 51px;
+  }
+
+  .pink--offers__title--question {
+    margin-top: 54px;
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+
+  .pink--offers__title--answer {
+    margin-left: 159px;
+    margin-top: -4px;
+    margin-right: 159px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--offers {
+    line-height: 63px;
+  }
+  .pink--offers__title--question {
+    margin-top: 72px;
+    font-size: 50px;
+  }
+
+  .pink--offers__title--answer {
+    margin-left: 350px;
+    margin-top: -4px;
+    margin-right: 350px;
+    font-size: 50px;
+  }
+}

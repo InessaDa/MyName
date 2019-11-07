@@ -1,0 +1,141 @@
+.pink--logo--mobile {
+  padding-left: 20px;
+  padding-top: 22px;
+  padding-bottom: 25px;
+  fill: #ffffff;
+}
+
+.pink--logo__footer--mobile {
+  margin-top: 63px;
+  margin-right: 86px;
+  fill: $pink--dark-grey;
+}
+
+.pink--logo__footer--mobile:hover,
+.pink--logo__inner-footer--mobile:hover {
+  fill: $pink--fuchsia;
+}
+
+.pink--logo__footer--mobile:active,
+.pink--logo__inner-footer--mobile:active {
+  opacity: 0.3;
+}
+
+.pink--logo--mobile:hover,
+.pink--logo--mobile:focus {
+  fill: $pink--fuchsia;
+}
+
+.pink--logo--mobile:active {
+  fill: #ffffff;
+  opacity: 0.3;
+}
+
+.pink--logo--tablet {
+  display: none;
+}
+
+.pink--logo--desktop {
+  display: none;
+}
+
+.pink--logo__inner-footer--mobile {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 88px;
+  left: 85px;
+}
+
+.pink--logo__footer--desktop,
+.pink--logo__inner-footer--desktop {
+  display: none;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--logo--mobile {
+    display: none;
+  }
+
+  .pink--logo__footer--mobile {
+    margin-left: 21px;
+    margin-top: 34px;
+  }
+
+  .pink--logo--tablet {
+    display: block;
+    padding-left: 20px;
+    padding-top: 26px;
+    padding-bottom: 25px;
+    fill: #ffffff;
+  }
+
+  .pink--logo--tablet:hover,
+  .pink--logo--tablet:focus {
+    fill: $pink--fuchsia;
+}
+
+  .pink--logo--tablet:active {
+    fill: #ffffff;
+    opacity: 0.3;
+ }
+
+ .pink--logo__inner-footer--mobile {
+    position: relative;
+    margin-top: 118px;
+    margin-left: -66px;
+    margin-right: 170px;
+ }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--logo--tablet {
+    display: none;
+  }
+
+  .pink--logo--desktop {
+    display: block;
+    padding-left: 45px;
+    padding-top: 28px;
+    padding-bottom: 25px;
+    fill: #ffffff;
+  }
+
+  .pink--logo--desktop:hover,
+  .pink--logo--desktop:focus {
+    fill: $pink--fuchsia;
+}
+
+  .pink--logo--desktop:active {
+    fill: #ffffff;
+    opacity: 0.3;
+ }
+
+ .pink--logo__footer--mobile,
+ .pink--logo__inner-footer--mobile {
+   display: none;
+ }
+
+ .pink--logo__footer--desktop,
+ .pink--logo__inner-footer--desktop {
+   display: block;
+   margin-left: 177px;
+   margin-top: 57px;
+   fill: $pink--dark-grey;
+ }
+
+ .pink--logo__inner-footer--desktop {
+  margin-left: 131px;
+  margin-top: 60px;
+ }
+
+ .pink--logo__footer--desktop:hover,
+ .pink--logo__inner-footer--desktop:hover {
+   fill: $pink--fuchsia;
+ }
+
+ .pink--logo__footer--desktop:active,
+ .pink--logo__inner-footer--desktop:active {
+   opacity: 0.3;
+ }
+}

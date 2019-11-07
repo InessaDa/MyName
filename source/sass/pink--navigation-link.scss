@@ -1,0 +1,35 @@
+.pink--navigation-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #ffffff;
+  outline: none;
+}
+
+
+.pink--navigation-link:hover,
+.pink--navigation-link:focus {
+  color: $pink--fuchsia;
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--navigation-link {
+    padding-bottom: 9px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: none;
+  }
+
+  .pink--navigation-link--active {
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
+  }
+
+  .pink--navigation-link--active:hover,
+  .pink--navigation-link--active:focus {
+    border-bottom: 3px solid $pink--fuchsia;
+  }
+
+}

@@ -1,0 +1,104 @@
+#slides {
+    @include list-reset;
+    position: relative;
+    height: 340px;
+    width: 320px;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+ 
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+ 
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+}
+ 
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+ 
+.slide:nth-of-type(1) {
+    background-image: url(../img/index-img/wind-mill_1__mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(2) {
+    background-image: url(../img/index-img/wind-mill_2__mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slide:nth-of-type(3) {
+    background-image: url(../img/index-img/wind-mill_3__mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(4) {
+    background-image: url(../img/index-img/wind-mill_4__mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(5) {
+    background-image: url(../img/index-img/wind-mill_5__mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media(min-width: $tablet-width) {
+    #slides {
+        position: relative;
+        height: 340px;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+
+    .slide:nth-of-type(1) {
+    background-image: url(../img/index-img/wind-mill_1__tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(2) {
+    background-image: url(../img/index-img/wind-mill_2__tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.slide:nth-of-type(3) {
+    background-image: url(../img/index-img/wind-mill_3__tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(4) {
+    background-image: url(../img/index-img/wind-mill_4__tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.slide:nth-of-type(5) {
+    background-image: url(../img/index-img/wind-mill_5__tab.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+ }
+}

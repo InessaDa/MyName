@@ -95,3 +95,36 @@
         border: 2px solid $bitter-green;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-popularity {
+        margin-top: 195px;
+    }
+    
+    .bitter-popularity--title {
+        padding-left: 633px;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start;
+    }
+
+    .bitter-popularity--reason-title {
+        text-align: start;
+        padding-left: 633px;
+    }
+
+    .bitter-popularity--list {
+        margin-top: -333px;
+        padding-left: 623px;
+        padding-top: 333px;
+        padding-bottom: 235px;
+        background-size: 825px 600px;
+        background-position: -252px -74px;
+    }
+
+    .bitter-popularity--description {
+        width: 554px;
+        top: 298px;
+        left: -20px;
+    }
+}

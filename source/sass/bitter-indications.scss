@@ -148,5 +148,52 @@
         order: 4;
         border-bottom: 1px solid $bitter-gray-underline;
     }
+}
 
+@media (min-width: $desktop-width) {
+    .bitter-indications {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .bitter-indications--title {
+        margin-right: 491px;
+        padding-right: 0;
+        padding-left: 97px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+        z-index: 3;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start;
+        background-color: #ffffff;
+    }
+
+    .bitter-indications--list {
+        padding: 0;
+        padding-top: 189px;
+        margin-top: -189px;
+        width: 100%;
+        background-image: url(../img/sw-bitter/bitter-symptoms-bg.jpg);
+        background-repeat: no-repeat;
+        background-position-x: 709px;
+    }
+
+    .bitter-indications--list-item {
+        width: 610px;
+        padding-left: 65px;
+    }
+
+    .bitter-indications--second-list {
+        margin-right: 491px;
+        padding: 0;
+        padding-left: 61px;
+        background-image: none;
+    }
+
+    .bitter-indications--second-list::after {
+        top: -326px;
+        left: 850px;
+    }
 }

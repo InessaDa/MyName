@@ -51,11 +51,49 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:first-child:hover::before {
+    content: "Корень дягеля(дудника) лекарственного";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 270px;
+    height: 143px;
+    padding-top: 108px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:nth-child(2) {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-02.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(2):hover::before {
+    content: "Колючник бесстебельный";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 250px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
 
 .bitter-composition--list-item:nth-child(3) {
@@ -65,11 +103,51 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:nth-child(3):hover::before {
+    content: "Натуральная камфора";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 250px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:nth-child(4) {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-04.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(4):hover::before {
+    content: "Высушенный сок из ствола ясеня манного";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 210px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
 
 .bitter-composition--list-item:nth-child(5) {
@@ -79,11 +157,51 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:nth-child(5):hover::before {
+    content: "Мирра горькая";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 90px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:nth-child(6) {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-06.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(6):hover::before {
+    content: "Корень ревеня";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 90px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 90px;
+    padding-right: 90px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
 
 .bitter-composition--list-item:nth-child(7) {
@@ -93,11 +211,51 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:nth-child(7):hover::before {
+    content: "Шафран посевной";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 100px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 85px;
+    padding-right: 85px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:nth-child(8) {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-08.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bitter-composition--list-item:nth-child(8):hover::before {
+    content: "Лист сенны александрийской";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 250px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
 
 .bitter-composition--list-item:nth-child(9) {
@@ -107,6 +265,26 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:nth-child(9):hover::before {
+    content: "Полынь горькая";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 110px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:nth-child(10) {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-09.png);
@@ -114,11 +292,52 @@
     background-position: center;
 }
 
+.bitter-composition--list-item:nth-child(10):hover::before {
+    content: "Куркума (Цитварный корень)";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 220px;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
+}
+
 .bitter-composition--list-item:last-child {
     background-color: $bitter-gray-back;
     background-image: url(../img/sw-bitter/bitter-recipe-bg-mob-q.png);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.bitter-composition--list-item:last-child:hover::before {
+    content: "Смесь трав по рецепту Марии Трэбэн";
+    position: absolute;
+    top: 26px;
+    left: 16px;
+    width: 150px;
+    z-index: 3;
+    height: 143px;
+    padding-top: 108px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background: radial-gradient(circle closest-corner at 73px 77px, $bitter-hover-gradient-from, $bitter-hover-gradient-to);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    opacity: 0.9;
 }
 
 .bitter-composition--list-item span,
@@ -211,5 +430,115 @@
         text-align: start;
         border: 1px solid $bitter-light-green;
     }
- 
+}
+
+@media (min-width: $desktop-width) {
+    .bitter-composition {
+        margin-top: 145px;
+    }
+
+    .bitter-composition--intro-wrap {
+        width: 520px;
+        padding-left: 620px;
+    }
+
+    .bitter-composition--title {
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start;
+    }
+
+    .bitter-composition--sub-title__list {
+        margin: 0;
+    }
+
+    .bitter-composition--list {
+        margin-top: -290px;
+    }
+
+    .bitter-composition--list-item {
+        width: 270px;
+    }
+
+    .bitter-composition--list-item p {
+        margin-left: 38%;
+    }
+
+    .bitter-composition--list-item:first-child:hover::before {
+        width: 237px;
+        letter-spacing: 1px;
+    }
+
+    .bitter-composition--list-item:nth-child(2) {
+        margin-right: 596px;
+    }
+
+    .bitter-composition--list-item:nth-child(2):hover::before {
+        width: 216px;
+    }
+
+    .bitter-composition--list-item:nth-child(3):hover::before {
+        width: 215px;
+    }
+
+    .bitter-composition--list-item:nth-child(4):hover::before {
+        width: 174px;
+    }
+
+    .bitter-composition--list-item:nth-child(5):hover::before {
+        width: 56px;
+    }
+
+    .bitter-composition--list-item:nth-child(6):hover::before {
+        width: 55px;
+    }
+
+    .bitter-composition--list-item:nth-child(7):hover::before {
+        width: 64px;
+    }
+
+    .bitter-composition--list-item:nth-child(8):hover::before {
+        width: 215px;
+    }
+
+    .bitter-composition--list-item:nth-child(9):hover::before {
+        width: 75px;
+    }
+
+    .bitter-composition--list-item:nth-child(10):hover::before {
+        width: 217px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .bitter-composition--list-item:last-child {
+        margin-left: 896px;
+    }
+
+    .bitter-composition--list-item:last-child:hover::before {
+        width: 145px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .bitter-composition--description-wrap {
+        width: 805px;
+        margin-top: -366px;
+        margin-left: 80px;
+        border: 1px solid $bitter-light-green;
+    }
+
+    .bitter-composition--description {
+        margin: 0;
+        padding-left: 95px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        padding-right: 167px;
+        width: auto;
+        border: none;
+    }
+
+    .bitter-composition--description:last-of-type {
+        padding-bottom: 80px;
+    }
 }

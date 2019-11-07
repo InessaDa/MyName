@@ -1,0 +1,14 @@
+.pink--page {
+  padding: 0;
+  margin: 0;
+}
+
+.pink--page--padding {
+  padding-top: 254px;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--page--padding {
+    padding-top: 273px;
+  }
+}

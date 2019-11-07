@@ -1,0 +1,17 @@
+.pink--content-container {
+  position: relative;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--content-container {
+    min-width: $pink--tablet-width;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--content-container {
+    min-width: $pink--desktop-width;
+  }
+}

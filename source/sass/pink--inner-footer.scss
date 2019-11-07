@@ -1,0 +1,10 @@
+.pink--inner-footer__title {
+  font-size: 0;
+}
+
+
+@media (min-width: $pink--desktop-width) {
+  .pink--inner-footer {
+    margin-bottom: 72px;
+  }
+}

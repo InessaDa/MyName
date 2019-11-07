@@ -1,0 +1,114 @@
+.pink--effect-article {
+  display: none;
+}
+
+.pink--effect-article__advertising,
+.pink--effect-article__advertising--timer {
+  display: none;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--effect-article {
+    display: flex;
+    flex-direction: column;
+    margin-top: -367px;
+    padding-left: 330px;
+  }
+
+  .pink--effect-article__advertising {
+    position: relative;
+    top: 159px;
+    left: 40px;
+    z-index: 1;
+    display: inline;
+    padding: 30px 30px;
+    font-size: 96px;
+    font-weight: 700;
+    color: $pink--fuchsia;
+    border: 15px solid $pink--fuchsia;
+    border-radius: 50%;
+  }
+
+  .pink--effect-article__advertising--timer {
+    position: relative;
+    left: 21px;
+    top: -56px;
+    z-index: 0;
+    width: 236px;
+    height: 281px;
+    display: block;
+    fill: $pink--timer-color;
+  }
+
+  .pink--effect-article__title {
+    margin-top: 71px;
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 37px;
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .pink--effect-article__text {
+    margin-top: -8px;
+    margin-right: 34px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $pink--dark-grey;
+  }
+
+  .pink--effect-article__link {
+    margin-top: -4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: $pink--fuchsia;
+    text-decoration: underline;
+    text-decoration-color: $pink--fuchsia;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--effect-article {
+    margin-top: -561px;
+    padding-left: 498px;
+    padding-right: 126px;
+    padding-bottom: 115px;
+    background-color: $pink--light-grey;
+  }
+
+  .pink--effect-article__advertising {
+    top: 186px;
+    left: 154px;
+    padding: 40px 40px 40px 40px;
+    border: 18px solid $pink--fuchsia;
+    font-size: 120px;
+  }
+
+  .pink--effect-article__advertising--timer {
+    left: 129px;
+    top: -113px;
+    width: 302px;
+    height: 419px;
+    fill: $pink--timer-color;
+  }
+
+  .pink--effect-article__title {
+    margin-bottom: 25px;
+    padding-top: 91px;
+    font-size: 30px;
+    line-height: 24px;
+  }
+
+  .pink--effect-article__text {
+    margin-top: 2px;
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .pink--effect-article__link {
+    padding-top: 17px;
+    font-size: 18px;
+  }
+}

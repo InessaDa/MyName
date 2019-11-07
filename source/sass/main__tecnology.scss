@@ -1,0 +1,48 @@
+.main__tecnology--title {
+    margin: 0;
+    padding-top: 22px;
+    text-align: center;
+}
+
+.main__tecnology--description {
+    padding: 15px;
+}
+
+.main__tecnology--order-form fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 33px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.main__tecnology--order-form legend {
+    margin-left: 20%;
+}
+
+.main__tecnology--order-form input {
+    width: 93%;
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 55px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+}
+
+.main__tecnology--order-form textarea {
+    width: 90%;
+    padding-left: 12px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: gray;
+}
+
+.main__tecnology--order-form button {
+    @include btn-reset;
+    margin: 22px auto;
+    padding: 5px 30px;
+}
+

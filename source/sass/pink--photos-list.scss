@@ -1,0 +1,24 @@
+.pink--photos-list{
+  @include list-reset;
+  margin-top: 21px;
+}
+
+.pink--photos-list__item {
+  margin-bottom: 22px;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--photos-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 49px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--photos-list {
+    margin-left: 110px;
+    margin-top: 50px;
+  }
+}

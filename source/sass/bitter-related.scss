@@ -112,5 +112,22 @@
     background-image: url(../img/sw-bitter/bitter-instruction-icon.svg), url(../img/sw-bitter/bitter-03-tablet.png);
     background-repeat: no-repeat;
     background-position: center;
+    }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-related--title {
+        padding-left: 90px;
+        padding-right: 555px; 
+        padding-bottom: 100px;   
+        background-color: white;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start;
+    }
+
+    .bitter-related--list {
+        width: 75%;
+        margin: -108px auto 55px;
+    }
 }

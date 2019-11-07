@@ -71,3 +71,37 @@
         color: #ffffff;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-presentaition {
+        background-image: url(../img/sw-bitter/bitter-mountine-desk.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .bitter-presentaition--title {
+        padding-left: 535px;
+        text-align: start;
+    }
+
+    .bitter-presentaition--sub-title {
+        margin-top: -202px;
+        padding-top: 202px;
+        padding-left: 530px;
+        padding-right: 0;
+        font-size: 60px;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 183px -4px;
+    }
+
+    .bitter-presentaition--description {
+        margin-top: -567px;
+        padding-left: 532px;
+        padding-right: 224px;
+        padding-bottom: 69px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}

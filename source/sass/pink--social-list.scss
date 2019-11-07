@@ -1,0 +1,164 @@
+.pink--social-list {
+  @include list-reset;
+  display: flex;
+  margin-top: 80px;
+  margin-left: 101px;
+  font-size: 0;
+}
+
+.pink--social-list__icon--twitter {
+  position: relative;
+  top: -15px;
+  left: -14px;
+  fill: $pink--fuchsia;
+}
+
+.pink--social-list__icon--twitter:hover {
+  opacity: 0.3;
+}
+
+.pink--social-list__item--twitter::after {
+  content: "";
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: -22px;
+  left: -32px;
+  padding: 23px;
+  border: 3px solid $pink--light-grey;
+  border-radius: 50%;
+}
+
+.pink--social-list__item--twitter:hover::after {
+  border: 3px solid $pink--dark-grey;
+}
+
+.pink--social-list__item--twitter:hover .pink--social-list__icon--twitter{
+  opacity: 0.3;
+}
+
+.pink--social-list__item--twitter:active::after {
+  opacity: 0.3;
+}
+
+.pink--social-list__icon--fb {
+  position: relative;
+  top: -19px;
+  left: 2px;
+  fill: $pink--fuchsia;
+}
+
+.pink--social-list__item--fb::after {
+  content: "";
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: -28px;
+  left: -18px;
+  padding: 23px;
+  border: 3px solid $pink--light-grey;
+  border-radius: 50%;
+}
+
+.pink--social-list__item--fb:hover::after {
+  border: 3px solid $pink--dark-grey;
+}
+
+.pink--social-list__item--fb:hover .pink--social-list__icon--fb{
+  opacity: 0.3;
+}
+.pink--social-list__item--fb:active::after {
+  opacity: 0.3;
+}
+
+.pink--social-list__icon--yotube {
+  position: relative;
+  top: -15px;
+  left: 12px;
+  fill: $pink--fuchsia;
+}
+
+.pink--social-list__item--youtube::after {
+  content: "";
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: -21px;
+  left: -7px;
+  padding: 23px;
+  border: 3px solid $pink--light-grey;
+  border-radius: 50%;
+}
+
+.pink--social-list__item--youtube:hover::after {
+  border: 3px solid $pink--dark-grey;
+}
+
+.pink--social-list__item--youtube:hover .pink--social-list__icon--yotube{
+  opacity: 0.3;
+}
+
+.pink--social-list__item--youtube:active::after {
+  opacity: 0.3;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--social-list {
+    margin-left: 0;
+    margin-top: 71px;
+  }
+
+  .pink--social-list__icon--twitter {
+    left: 5px;
+  }
+
+  .pink--social-list__item--fb::after {
+    left: -29px;
+  }
+
+  .pink--social-list__icon--yotube {
+    left: 4px;
+  }
+
+  .pink--social-list__item--youtube::after {
+    left: -30px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--social-list {
+    margin-left: 200px;
+    margin-right: 207px;
+    padding-right: 11px;
+  }
+
+  .pink--social-list__icon--twitter {
+    top: 11px;
+    left: 52px;
+  }
+
+  .pink--social-list__item--twitter::after {
+    left: 17px;
+    top: 3px;
+  }
+
+  .pink--social-list__icon--fb {
+    left: 50px;
+    top: 8px;
+  }
+
+  .pink--social-list__item--fb::after {
+    left: 20px;
+    top: -1px;
+  }
+
+  .pink--social-list__icon--yotube {
+    left: 51px;
+    top: 10px;
+  }
+
+  .pink--social-list__item--youtube::after {
+    left: 15px;
+    top: 4px;
+  }
+}

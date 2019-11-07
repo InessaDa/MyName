@@ -1,0 +1,100 @@
+.main-important__links-section {
+    margin: 0 30px;
+}
+
+.main-important__links-list--title {
+    margin: 0;
+    text-align: center;
+}
+
+.main-important__links-list {
+    @include list-reset;
+}
+
+.main-important__links-list--item a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 15px auto;
+    width: 280px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px #f137a6;
+    color: black;
+    transition: .15s ease-in-out;
+}
+
+.main-important__links-list--item a:hover,
+.main-important__links-list--item a:focus {
+    box-shadow: 0 0 40px #f137a6 inset, 0 0 0 0 #f137a6;
+    color: black;
+}
+
+
+.main-important__links--intro {
+    display: none;
+}
+
+@media (min-width: $tablet-width) {
+    .main-important__links-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .main-important__links-list--item {
+        display: flex;
+        flex-direction: row-reverse;
+        padding-left: 33px;
+    }
+
+    .main-important__links-list--item:first-child {
+        padding-top: 152px;
+        background-image: url(../img/index-img/Wiki-img.png);
+        background-repeat: no-repeat;
+        background-position: 21px -2px;
+    }
+
+    .main-important__links-list--item:nth-child(2) {
+        padding-top: 179px;
+        background-image: url(../img/index-img/w3c-img.png);
+        background-repeat: no-repeat;
+        background-position: 21px -2px;
+        background-size: 556px 184px;
+    }
+
+    .main-important__links-list--item:nth-child(3){
+        padding-top: 179px;
+        background-image: url(../img/index-img/mdn-img.png);
+        background-repeat: no-repeat;
+        background-position: 21px -2px;
+        background-size: 556px 184px;
+    }
+
+    .main-important__links-list--item a {
+        width: 255px;
+        margin: 15px 35px;
+    }
+
+    .main-important__links--intro {
+        display: block;
+        width: 225px;
+    }
+
+    .main-important__links-list--title {
+        padding-top: 40px;
+        font-size: 28px;
+    }
+}
+
+/*@media (min-width: $desktop-width) {
+    .main-important__links-list--item:first-child a {
+        width: auto;
+        background-image: url(../img/index-img/Wiki-img.png);
+        background-size: 300px 82px;
+        background-repeat: no-repeat;
+        background-position: 326px 16px;
+    }
+}*/

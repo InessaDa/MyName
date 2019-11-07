@@ -1,0 +1,129 @@
+.pink--stores {
+  position: relative;
+  top: 364px;
+  z-index: -1;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 25px;
+  margin-top: -5px;
+  background-color: $pink--dark-grey;
+}
+
+.pink--stores__caption {
+  display: none;
+}
+
+.pink--stores__button {
+  display: inline-block;
+  margin-left: 19px;
+  margin-top: 55px;
+  margin-right: 17px;
+  padding-left: 37px;
+  padding-top: 15px;
+  padding-right: 36px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+}
+
+.pink--stores__button:hover,
+.pink--stores__button:focus {
+  background-color: #ffffff;
+  color: $pink--fuchsia;
+}
+
+.pink--stores__button:active {
+  color: $pink--light-fuchsia;
+}
+
+.pink--stores__title {
+  margin-left: 30px;
+  margin-top: 94px;
+  margin-right: 30px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--stores {
+    right: 0px;
+    top: 17px;
+    padding-right: 330px;
+    padding-bottom: 18px;
+    background: none;
+  }
+  .pink--stores__caption {
+    display: block;
+    margin-bottom: 30px;
+    padding-left: 67px;
+    padding-top: 45px;
+    padding-right: 59px;
+    line-height: 49px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+
+  .pink--stores__button {
+    margin-top: 0;
+    margin-right: 12px;
+    padding-left: 46px;
+    padding-top: 13px;
+    padding-right: 44px;
+    padding-bottom: 17px;
+  }
+
+  .pink--stores__title {
+    margin: 0;
+    margin-top: 117px;
+    margin-left: 10px;
+    margin-bottom: 113px;
+    padding-bottom: 110px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--stores {
+    padding-left: 133px;
+    padding-top: 67px;
+    padding-right: 729px;
+  }
+
+  .pink--stores__caption {
+    margin-top: 23px;
+    margin-bottom: 40px;
+    padding-left: 51px;
+    padding-top: 7px;
+    padding-right: 72px;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 1px;
+    line-height: 61px;
+  }
+
+  .pink--stores__title {
+    margin-left: 0;
+    margin-top: 122px;
+    margin-right: 20px;
+    margin-bottom: 126px;
+    font-size: 18px;
+  }
+
+  .pink--stores__button {
+    margin-top: 10px;
+    padding-left: 28px;
+    padding-right: 29px;
+    font-size: 21px;
+  }
+
+}

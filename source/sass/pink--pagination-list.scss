@@ -1,0 +1,49 @@
+.pink--pagination-list {
+  @include list-reset;
+  position: absolute;
+  top: 413px;
+  left: 132px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.pink--pagination-list__item {
+  width: 6px;
+  height: 6px;
+  background-color: $pink--pagination-grey;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.pink--pagination-list__item:nth-child(2) {
+  position: absolute;
+  left: 23px;
+  top: -1px;
+  background-color: #ffffff;
+  border: 2px solid $pink--dark-grey;
+  border-radius: 50%;
+}
+
+.pink--pagination-list__item:nth-child(2):hover {
+  top: 0;
+  left: 25px;
+}
+
+.pink--pagination-list__item:nth-child(3) {
+  position: absolute;
+  left: 50px;
+}
+
+
+.pink--pagination-list__item:hover,
+.pink--pagination-list__item--active:hover {
+  border: none;
+  background-color: $pink--dark-grey;
+}
+
+.pink--pagination-list__item:active,
+.pink--pagination-list__item:nth-child(2):active {
+  background-color: #e9ebec;
+}
+

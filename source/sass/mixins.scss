@@ -9,3 +9,8 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@mixin btn-reset {
+  display: block;
+  border: none;
+}

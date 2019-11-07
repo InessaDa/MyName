@@ -1,0 +1,883 @@
+.pink--form__subtitle {
+  padding-left: 20px;
+  padding-top: 31px;
+  padding-right: 21px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: $pink--dark-grey;
+}
+
+.pink--form__connect-info--title,
+.pink--form__connect-info--phone-icon-wrapper,
+.pink--form__fill-request {
+  display: none;
+}
+
+.pink--form__personal-info,
+.pink--form__connect-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 29px;
+  margin-bottom: 6px;
+  border: none;
+}
+
+.pink--form__personal-info {
+  flex-direction: column;
+}
+
+.pink--form__personal-info--label,
+.pink--form__connect-info--label {
+  padding-left: 28px;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $pink--fuchsia;
+}
+
+.pink--form__personal-info--text-input,
+.pink--form__connect-info--text-input {
+  margin-left: 8px;
+  margin-top: 6px;
+  margin-bottom: 19px;
+  padding-left: 20px;
+  padding-top: 14px;
+  padding-right: 34px;
+  padding-bottom: 13px;
+  border: 2px solid $pink--light-grey;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  outline: none;
+}
+
+.pink--form__achievements,
+.pink--form__yours-app {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-bottom: 23px;
+  border: none;
+  background-color: $pink--light-grey;
+}
+
+.pink--form__achievements--title,
+.pink--form__yours-app--title {
+  padding-left: 25px;
+  padding-top: 112px;
+  padding-right: 26px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  color: $pink--fuchsia;
+}
+
+.pink--form__achievements--list {
+  @include list-reset;
+}
+
+.pink--form__achievements--list-item {
+  padding-left: 76px;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.pink--form__achievements--label {
+  position: relative;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+}
+
+.pink--form__achievements--input + .pink--form__achievements--label::before {
+  content: "";
+    position: absolute;
+    top: -8px;
+    left: -71px;
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border: 1px solid $pink--grey;
+}
+
+.pink--form__achievements--input:checked + .pink--form__achievements--label::before {
+  background-image: url("data:image/svg+xml,%3Csvg version='1.0' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='21.698px' height='16.09px' viewBox='-82.357 4.875 21.698 16.09' enable-background='new -82.357 4.875 21.698 16.09' xml:space='preserve'%3E%3Cpath fill='%23D22856' d='M-60.953,5.167c-0.391-0.391-1.023-0.391-1.414,0L-75.75,18.551l-4.9-4.9c-0.391-0.391-1.023-0.391-1.414,0 s-0.391,1.023,0,1.414l5.607,5.607c0.195,0.195,0.451,0.293,0.707,0.293s0.512-0.098,0.707-0.293l14.09-14.0 C-60.562,6.191-60.562,5.558-60.953,5.167z'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-position: 9px 9px;
+  border: 1px solid $pink--fuchsia;
+}
+
+.pink--form__achievements--input:hover + .pink--form__achievements--label::before {
+  border: 1px solid $pink--dark-grey;
+}
+
+.pink--form__achievements--input:active + .pink--form__achievements--label::before,
+.pink--form__achievements--input:focus + .pink--form__achievements--label::before {
+  border: 1px solid $pink--fuchsia;
+}
+
+.pink--form__yours-app--label {
+  position: relative;
+  padding-left: 74px;
+  padding-top: 28px;
+  padding-bottom: 19px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+}
+
+.pink--form__yours-app--radio + .pink--form__yours-app--label::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: 7px;
+  width: 36px;
+  height: 36px;
+  background-color: white;
+  border: 1px solid $pink--grey;
+  border-radius: 50%;
+}
+
+.pink--form__yours-app--radio:checked + .pink--form__yours-app--label::after {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 18px;
+  width: 14px;
+  height: 14px;
+  background-color: $pink--fuchsia;
+  border-radius: 50%;
+}
+
+.pink--form__yours-app--radio:hover + .pink--form__yours-app--label::before {
+  border: 1px solid $pink--dark-grey;
+}
+
+.pink--form__yours-app--radio:active + .pink--form__yours-app--label::before,
+.pink--form__yours-app--radio:focus + .pink--form__yours-app--label::before {
+  border: 1px solid $pink--fuchsia;
+}
+
+.pink--form__textarea {
+  margin-top: 21px;
+  border: none;
+}
+
+.pink--form__textarea--title {
+  padding-top: 20px;
+  padding-bottom: 6px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  color: $pink--fuchsia;
+}
+
+.pink--form__textarea--impressions {
+  margin-left: 7px;
+  padding-left: 18px;
+  padding-top: 14px;
+  padding-right: 10px;
+  padding-bottom: 123px;
+  letter-spacing: -1px;
+  word-spacing: -6px;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+  border: 2px solid $pink--light-grey;
+}
+
+.pink--form__button {
+  margin-left: 20px;
+  margin-top: 37px;
+  padding-left: 47px;
+  padding-top: 16px;
+  padding-right: 49px;
+  padding-bottom: 16px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  background-color: $pink--dark-green;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.pink--form__button:hover,
+.pink--form__button:focus,
+.pink--form__modal--sended-button:hover,
+.pink--form__modal--sended-button:focus,
+.pink--form__modal--reqired-button:hover,
+.pink--form__modal--reqired-button:focus {
+  background-color: #1c9b5e;
+}
+
+.pink--form__button:active,
+.pink--form__modal--sended-button:active,
+.pink--form__modal--reqired-button:active {
+  color: #61b98f;
+}
+
+.pink--form__button:disabled,
+.pink--form__modal--sended-button:disabled,
+.pink--form__modal--reqired-button:disabled {
+  background-color: $pink--grey;
+}
+
+.pink--form__asterisk {
+  color: $pink--fuchsia;
+}
+
+.pink--form__required {
+  margin-left: 68px;
+  margin-top: 31px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.pink--form__required--part-two {
+  position: relative;
+  top: -75px;
+  left: 142px;
+  display: inline-block;
+}
+
+.pink--form__modal {
+  background-color: #ffffff;
+  box-shadow: 0 7px 15px rgba(0, 1, 1, 0.15);
+}
+
+.pink--form__modal--required {
+  position: absolute;
+  top: 2016px;
+  left: 0;
+  display: block;
+}
+
+.pink--form__modal--reqired-title {
+    padding-top: 26px;
+    font-size: 18px;
+    color: #000000;
+    font-weight: 700;
+    line-height: 1.333;
+    text-align: center;
+}
+
+.pink--form__modal--reqired--text {
+  padding-left: 24px;
+  padding-right: 23px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align: center;
+}
+
+.pink--form__modal--reqired-button {
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 52px;
+  margin-top: 43px;
+  width: 276px;
+  height: 59px;
+  border: 2px solid $pink--dark-green;
+  background-color: $pink--dark-green;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.pink--form__modal--sended {
+  position: absolute;
+  top: 2100px;
+  left: 0;
+  display: block;
+}
+
+.pink--form__modal--sended-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.pink--form__modal--sended-text {
+  padding-left: 27px;
+  padding-right: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.pink--form__modal--sended-button {
+  margin-left: 22px;
+  margin-right: 22px;
+  margin-bottom: 52px;
+  margin-top: 43px;
+  width: 276px;
+  height: 59px;
+  border: 2px solid $pink--dark-green;
+  background-color: $pink--dark-green;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.pink--form__modal--sended-button-wrapper {
+  background-color: $pink--light-grey;
+}
+
+.pink--form__modal--close {
+  display: none;
+}
+
+.pink--form__personal-info--text-input:hover,
+.pink--form__connect-info--text-input:hover {
+  border: 2px solid $pink--dark-grey;
+}
+
+.pink--form__personal-info--text-input:active,
+.pink--form__connect-info--text-input:active,
+.pink--form__personal-info--text-input:focus,
+.pink--form__connect-info--text-input:focus  {
+  border: 2px solid $pink--fuchsia;
+}
+
+
+
+@media (min-width: $pink--tablet-width) {
+  .pink--form__contest-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pink--form__subtitle {
+    padding-left: 80px;
+    padding-top: 75px;
+    padding-right: 80px;
+    font-size: 18px;
+  }
+
+  .pink--form__fill-request {
+    display: inline;
+  }
+
+  .pink--form__personal-info {
+    order: 0;
+    margin-left: -20px;
+    margin-top: 42px;
+  }
+
+  .pink--form__personal-info--label {
+    margin-right: 7px;
+  }
+
+  .pink--form__personal-info--text-input {
+    margin-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 47px;
+    padding-left: 22px;
+    padding-right: 280px;
+  }
+
+  .pink--form__personal-info--name-wrapper pink--.form__personal-info--label {
+    margin-right: 9px;
+  }
+
+  .pink--form__personal-info--name-wrapper .pink--form__personal-info--text-input {
+    padding-right: 323px;
+  }
+
+  .pink--form__personal-info--fathername-wrapper .pink--form__personal-info--text-input {
+    margin-bottom: 0;
+    padding-right: 286px;
+    padding-bottom: 17px;
+  }
+
+  .pink--form__yours-app {
+    order: 1;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-right: 20px;
+    background-color: white;
+    border: 2px solid $pink--light-grey;
+  }
+
+  .pink--form__yours-app--label {
+    padding-left: 105px;
+    padding-top: 32px;
+    padding-bottom: 14px;
+  }
+
+  .pink--form__yours-app--title {
+    padding-top: 10px;
+  }
+
+  .pink--form__yours-app--radio + .pink--form__yours-app--label::before {
+    top: 28px;
+    left: 47px;
+  }
+
+  .pink--form__yours-app--radio:checked + .pink--form__yours-app--label::after {
+    top: 40px;
+    left: 58px;
+  }
+
+  .pink--form__yours-app--label:nth-child(7) {
+    padding-bottom: 34px;
+  }
+
+  .pink--form__connect-info {
+    order: 2;
+    margin-left: 20px;
+    margin-top: 47px;
+    margin-right: 20px;
+    border: 2px solid $pink--light-grey;
+  }
+
+  .pink--form__connect-info--title {
+    position: relative;
+    top: -11px;
+    display: inline;
+    padding-left: 25px;
+    padding-top: 21px;
+    padding-right: 26px;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    color: $pink--fuchsia;
+  }
+
+  .pink--form__connect-info--phone-wrapper,
+  .pink--form__connect-info--mail-wrapper  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+    margin-top: -62px;
+  }
+
+  .pink--form__connect-info--mail-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .pink--form__connect-info--phone-wrapper .pink--form__connect-info--label,
+  .pink--form__connect-info--mail-wrapper .pink--form__connect-info--label {
+    order: 2;
+    margin-left: 37px;
+    margin-top: -8px;
+  }
+
+  .pink--form__connect-info--text-input {
+    margin-left: 45px;
+    margin-top: 22px;
+    margin-right: 46px;
+  }
+
+  .pink--form__connect-info--phone-icon-wrapper {
+    position: relative;
+    left: 484px;
+    top: 84px;
+    display: block;
+    width: 62px;
+    height: 62px;
+    background-color: $pink--light-grey;
+    background-image: url(../img/pink/icon-phone.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 21px;
+  }
+
+  .pink--form__connect-info--mail-icon-wrapper {
+    position: relative;
+    left: 484px;
+    top: 84px;
+    display: block;
+    width: 62px;
+    height: 62px;
+    background-color: $pink--light-grey;
+    background-image:  url(../img/pink/icon-mail.svg);
+    background-repeat: no-repeat;
+    background-position: 22px 24px;
+  }
+
+  .pink--form__achievements {
+    order: 3;
+    margin-left: 20px;
+    margin-top: 36px;
+    margin-right: 20px;
+    padding-bottom: 33px;
+    background-color: white;
+    border: 2px solid $pink--light-grey;
+  }
+
+  .pink--form__achievements--list {
+    padding-left: 30px;
+  }
+
+  .pink--form__achievements--input + .pink--form__achievements--label::before {
+    top: -7px;
+    left: -60px;
+  }
+
+  .pink--form__achievements--title {
+    padding-top: 13px;
+  }
+
+  .pink--form__textarea {
+    order: 4;
+    margin-left: 20px;
+    margin-top: 52px;
+    margin-right: 20px;
+    margin-bottom: 34px;
+    border: 2px solid $pink--light-grey;
+  }
+
+  .pink--form__textarea--title {
+    padding-left: 39px;
+    padding-top: 7px;
+    padding-right: 39px;
+  }
+
+  .pink--form__textarea--impressions {
+    width: 477px;
+    margin-left: 45px;
+    margin-top: 26px;
+    margin-bottom: 36px;
+    padding-right: 0;
+    padding-bottom: 115px;
+  }
+
+  .pink--form__button-wrapper {
+    display: flex;
+    order: 5;
+    margin-bottom: 52px;
+  }
+
+  .pink--form__button {
+    margin-top: 33px;
+    padding-left: 58px;
+    padding-top: 17px;
+    padding-right: 57px;
+  }
+
+  .pink--form__required {
+    margin-left: 140px;
+    margin-top: 47px;
+  }
+
+  .pink--form__required--part-two {
+    margin: 0;
+    padding: 0;
+    top: 52px;
+    left: 6px;
+  }
+
+  .pink--form__modal--required {
+    top: 2312px;
+    max-width: 460px;
+    margin-left: 101px;
+    margin-right: 101px;
+  }
+
+  .pink--form__modal--reqired-title {
+    margin-left: 82px;
+    margin-right: 83px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .pink--form__modal--reqired--text {
+    padding-left: 77px;
+    padding-right: 77px;
+    font-size: 18px;
+  }
+
+  .pink--form__modal--reqired-button {
+    margin-left: 82px;
+    margin-right: 82px;
+    margin-bottom: 54px;
+    padding-left: 135px;
+    padding-right: 155px;
+  }
+
+  .pink--form__modal--sended {
+    top: 2465px;
+    max-width: 460px;
+    margin-left: 101px;
+    margin-right: 101px;
+  }
+
+  .pink--form__modal--sended-title {
+    margin-left: 77px;
+    margin-right: 79px;
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .pink--form__modal--sended-text {
+    padding-left: 77px;
+    padding-right: 74px;
+    font-size: 18px;
+  }
+
+  .pink--form__modal--sended-button {
+    width: 295px;
+    margin-left: 82px;
+    margin-right: 82px;
+    margin-bottom: 54px;
+    padding-left: 56px;
+    padding-right: 66px;
+  }
+
+  /*.form__connect-info--text-input:hover,
+  .form__connect-info--text-input:focus,
+  .form__connect-info--text-input:active {
+    border-right: none;
+  }*/
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--form__contest-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .pink--form__subtitle {
+    padding-left: 214px;
+    padding-right: 217px;
+  }
+
+  .pink--form__personal-info {
+    margin-left: 90px;
+    margin-top: 56px;
+    margin-right: 36px;
+  }
+
+  .pink--form__personal-info--text-input {
+    padding-right: 95px;
+  }
+
+  .pink--form__personal-info--name-wrapper .pink--form__personal-info--text-input {
+    padding-right: 138px;
+  }
+
+  .pink--form__personal-info--fathername-wrapper .pink--form__personal-info--text-input {
+    padding-right: 99px;
+  }
+
+  .pink--form__yours-app {
+    margin-top: 40px;
+    margin-bottom: 24px;
+  }
+
+  .pink--form__yours-app--title {
+    top: -8px;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+
+  .pink--form__yours-app--label {
+    margin-right: 150px;
+    padding-left: 122px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+  }
+
+  .pink--form__yours-app--radio +.pink--form__yours-app--label::before {
+    top: 31px;
+    left: 64px;
+  }
+
+  .pink--form__yours-app--radio:checked + .pink--form__yours-app--label::after {
+    top: 44px;
+    left: 76px;
+  }
+
+  .pink--form__connect-info {
+    margin-left: 131px;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding-bottom: 0;
+  }
+
+  .pink--form__connnect-info--wrapper {
+    display: flex;
+    width: 910px;
+  }
+
+  .pink--form__connect-info--title {
+    top: -13px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .pink--form__connect-info--text-input {
+    margin-top: 17px;
+    margin-right: 22px;
+    padding-top: 14px;
+    padding-right: 134px;
+    padding-bottom: 14px;
+  }
+
+  .pink--form__connect-info--phone-icon-wrapper {
+    left: 360px;
+    top: 79px;
+  }
+
+  .pink--form__connect-info--mail-wrapper {
+    margin-bottom: 13px;
+  }
+
+  .pink--form__connect-info--mail-icon-wrapper {
+    left: 360px;
+    top: 79px;
+  }
+
+  .pink--form__achievements {
+    margin-left: 131px;
+    margin-right: 131px;
+    padding-bottom: 40px;
+  }
+
+  .pink--form__achievements--list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pink--form__achievements--list-item {
+    padding-left: 0;
+  }
+
+  .pink--form__achievements--list-item:nth-child(1) {
+    order: 0;
+    padding-left: 75px;
+  }
+
+  .pink--form__achievements--list-item:nth-child(2) {
+    order: 4;
+    padding-left: 75px;
+  }
+
+  .pink--form__achievements--list-item:nth-child(3) {
+    order: 1;
+    padding-left: 116px;
+  }
+
+  .pink--form__achievements--list-item:nth-child(4) {
+    order: 5;
+    padding-left: 155px;
+  }
+
+  .pink--form__achievements--list-item:nth-child(5) {
+    order: 3;
+    padding-left: 113px;
+  }
+
+  .pink--form__achievements--list-item:nth-child(6) {
+    order: 6;
+    padding-left: 122px;
+  }
+
+  .pink--form__textarea {
+    width: 910px;
+    margin-left: 132px;
+  }
+
+  .pink--form__textarea--impressions {
+    width: 798px;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    padding-right: 0;
+    padding-bottom: 51px;
+  }
+
+  .pink--form__button-wrapper {
+    margin-left: 110px;
+    margin-bottom: 9px;
+  }
+
+  .pink--form__button {
+    margin-right: 329px;
+  }
+
+  .pink--form__required {
+    margin-left: 0;
+  }
+
+  .pink--form__required--part-two {
+    top: 51px;
+  }
+
+  .pink--form__required--desktop-only-text {
+    margin: 0;
+    margin-top: 51px;
+    margin-left: 2px;
+    padding: 0;
+  }
+
+  .pink--form__modal--required {
+    top: 1400px;
+    margin-left: 210px;
+    margin-right: 210px;
+    max-width: 780px;
+  }
+
+  .pink--form__modal--reqired--text {
+    padding-left: 214px;
+    padding-right: 216px;
+  }
+
+  .pink--form__modal--required-button-wrapper {
+    margin-top: 49px;
+    background-color: $pink--light-grey;
+  }
+
+  .pink--form__modal--reqired-button {
+    margin-left: 242px;
+  }
+
+  .pink--form__modal--sended {
+    top: 1400px;
+    margin-left: 210px;
+    margin-right: 210px;
+    max-width: 780px;
+  }
+
+  .pink--form__modal--sended-text {
+    padding-left: 195px;
+    padding-right: 195px;
+  }
+
+  .pink--form__modal--sended-button-wrapper {
+    margin-top: 39px;
+  }
+
+  .pink--form__modal--sended-button {
+    margin-left: 162px;
+    margin-right: 162px;
+    width: 456px;
+  }
+
+}
+

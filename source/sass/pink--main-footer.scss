@@ -1,0 +1,9 @@
+.pink--main-footer {
+  display: none;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--main-footer {
+    display: flex;
+  }
+}

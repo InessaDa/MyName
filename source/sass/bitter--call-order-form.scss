@@ -17,6 +17,31 @@ background-color: $bitter-green;
 }
 
 @media (min-width: $tablet-width) {
+    .bitter--call-order-form {
+        position: absolute;
+        top: 683px;
+        width: 572px;
+        margin-left: 188px;
+        background-color: #ffffff;
+     }
+    
+    .bitter--call-order-form__wrap {
+        position: relative;
+        display: flex;
+        padding-left: 43px;
+     }
+    
+     .bitter--call-order-form::before {
+        position: absolute;
+        top: 23px;
+        left: 29px;
+        content: "";
+        display: block;
+        width: 514px;
+        height: 265px;
+        background: transparent;
+        border: 1px solid $bitter-light-green;
+     }
 
 .bitter--call-order-form__title {
     display: block;
@@ -59,32 +84,6 @@ background-color: $bitter-green;
     color: $bitter-gray-text;
 }
 
-.bitter--call-order-form {
-    position: absolute;
-    top: 672px;
-    width: 572px;
-    margin-left: 188px;
-    background-color: #ffffff;
- }
-
-.bitter--call-order-form__wrap {
-    position: relative;
-    display: flex;
-    padding-left: 43px;
- }
-
- .bitter--call-order-form::before {
-    position: absolute;
-    top: 23px;
-    left: 29px;
-    content: "";
-    display: block;
-    width: 514px;
-    height: 265px;
-    background: transparent;
-    border: 1px solid $bitter-light-green;
- }
-
  .bitter--call-order-form__link {
      width: 250px;
      margin-left: 294px;
@@ -93,4 +92,12 @@ background-color: $bitter-green;
      background-repeat: no-repeat;
      background-position: 178px 26px;
  }
+}
+
+@media (min-width: $desktop-width) {
+    .bitter--call-order-form {
+        top: 488px;
+        left: 530px;
+        margin: 0;
+    }
 }

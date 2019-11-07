@@ -65,3 +65,20 @@
       left: 116px;
    }
 }
+
+@media (min-width: $desktop-width) {
+   .bitter-aside__reviews {
+      width: 495px;
+      left: 506px;
+   }
+
+   .bitter-aside__reviews--paragraph {
+      top: -175px;
+      padding-bottom: 74px;
+   }
+
+   .bitter-aside__reviews--link {
+      top: -34px;
+      left: 64px;
+   }
+}

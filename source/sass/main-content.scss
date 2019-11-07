@@ -1,4 +1,33 @@
 .main-content {
-    height: 100vw;
     background-color: $main-gray;
+    padding-bottom: 55px;
+}
+
+.main-content__title {
+    margin: 0;
+    text-align: center;
+}
+
+.main-content__description {
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+.main-content__image {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: $tablet-width) {
+    .main-content__image {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .main-content__title {
+        padding-top: 40px;
+        font-size: 28px;
+    }
 }

@@ -1,0 +1,34 @@
+.pink--menu-button__icon {
+    position: relative;
+    top: -8px;
+    left: -7px;
+}
+
+.pink--menu-button__icon--hidden {
+  display: none;
+}
+
+.pink--menu-button__icon:hover,
+.pink--menu-button__icon:focus {
+  path {
+    fill: $pink--fuchsia;
+  }
+}
+
+.pink--menu-button__icon:active {
+  opacity: 0.3;
+}
+
+
+@media (min-width: $pink--tablet-width) {
+  .pink--menu-button__icon {
+    left: -6px;
+    top: 10px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--menu-button__icon {
+    display: none;
+  }
+}

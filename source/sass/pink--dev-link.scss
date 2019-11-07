@@ -1,0 +1,82 @@
+.pink--dev-link,
+.pink--dev-link__inner-footer {
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+}
+
+.pink--dev-link {
+  left: 95px;
+  top: -33px;
+}
+
+
+.pink--dev-link__inner-footer {
+  height: 25px;
+  left: -163px;
+  top: 143px;
+}
+
+.pink--dev-link__icon {
+  position: relative;
+  top: -25px;
+  left: 102px;
+  fill: $pink--fuchsia;
+}
+
+.pink--dev-link:hover,
+.pink--dev-link:focus,
+.pink--dev-link__inner-footer:hover,
+.pink--dev-link__inner-footer:focus,
+.pink--dev-link__icon:hover,
+.pink--dev-link__icon:focus {
+  fill: $pink--dark-grey;
+}
+
+.pink--dev-link:active {
+  fill: $pink--dark-grey;
+  opacity: 0.3;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--dev-link {
+    top: 35px;
+    left: 61px;
+  }
+
+  .pink--dev-link__icon {
+    top: 13px;
+    left: 10px;
+  }
+
+  .pink--dev-link__inner-footer {
+    left: 60px;
+    top: 35px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--dev-link {
+    left: 22px;
+    top: 58px;
+    font-size: 18px;
+  }
+
+  .pink--dev-link::before {
+    left: 150px;
+  }
+
+  .pink--dev-link__icon {
+    top: 12px;
+    left: 10px;
+  }
+
+  .pink--dev-link__inner-footer {
+    left: 24px;
+    top: 61px;
+    font-size: 18px;
+  }
+}

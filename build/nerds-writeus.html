@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body class="nerds--page nerds--page-form">
+<div class="nerds--pop-up-active">
+  <div class="nerds--pop-up-intro">
+    <h2 class="nerds--form-title"> Напишите нам</h2>
+    <button class="nerds--btn nerds--close-button" type="button">
+      <img src="img/close-cross.svg" width="21" height="21" alt="close-btn">
+      <span class="visually-hidden"> Закрыть окно</span>
+    </button>
+  </div>
+  <form class="nerds--write-us-form" action="https://echo.htmlacademy.ru" method="post">
+    <div class="nerds--your-info">
+      <div class="nerds--your-name-box">
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+      </div>
+      <div class="nerds--your-mail-box">
+        <label for="e-mail">Ваш e-mail:</label>
+        <input type="text" name="e-mail" id="e-mail" placeholder="email@example.com">
+      </div>
+    </div>
+    <div class="nerds--letter-text">
+      <label for="text">Текст письма:</label>
+      <textarea name="text" id="text" placeholder="В свободной форме" rows="5" cols="50"></textarea>
+    </div>
+    <button class="nerds--btn nerds--send-btn" type="submit">Отправить</button>
+  </form>
+</div>
+</body>
+</html>

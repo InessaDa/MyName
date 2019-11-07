@@ -1,0 +1,33 @@
+.pink--photo-preface-text {
+  padding-left: 26px;
+  padding-top: 30px;
+  padding-right: 26px;
+  padding-bottom: 35px;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+  text-align: center;
+  background-color: white;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--photo-preface-text {
+    margin-bottom: 0;
+    padding-left: 104px;
+    padding-top: 74px;
+    padding-right: 106px;
+    padding-bottom: 75px;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--photo-preface-text {
+    margin-bottom: 0;
+    padding-left: 308px;
+    padding-top: 73px;
+    padding-right: 308px;
+    padding-bottom: 88px;
+  }
+}

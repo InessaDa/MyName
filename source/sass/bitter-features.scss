@@ -70,3 +70,11 @@
         border-radius: 50%;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-features--list {
+        margin-top: 35%;
+        margin-left: 123px;
+        margin-right: 0;
+    }
+}

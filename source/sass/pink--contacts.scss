@@ -1,0 +1,193 @@
+.pink--contacts__title-question,
+.pink--contacts__title-answer {
+  margin-left: 50px;
+  margin-top: 41px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  color: $pink--dark-grey;
+}
+
+.pink--contacts__title-answer {
+  margin-left: 56px;
+  margin-top: -23px;
+}
+
+
+.pink--contacts__phone--title,
+.pink--contacts__mail--title,
+.pink--contacts__address--title {
+  font-size: 18px;
+  font-weight: 700;
+  color: $pink--dark-grey;
+  text-align: center;
+}
+
+.pink--contacts__phone--title {
+  padding-top: 12px;
+}
+
+.pink--contacts__mail--title {
+  padding-left: 4px;
+  padding-top: 3px;
+}
+
+.pink--contacts__address--title {
+  padding-top: 6px;
+}
+
+.pink--contacts__phone,
+.pink--contacts__mail,
+.pink--contacts__address {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: $pink--fuchsia;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.pink--contacts__phone {
+  margin-top: -23px;
+  padding-left: 58px;
+}
+
+.pink--contacts__mail {
+  margin-top: -18px;
+  margin-left: 42px;
+  margin-right: 37px;
+}
+
+.pink--contacts__mail:hover,
+.pink--contacts__mail:focus {
+  color: $pink--dark-grey;
+  border-bottom: 1px solid $pink--dark-grey;
+}
+
+.pink--contacts__mail:active {
+  color: $pink--pagination-grey;
+  border: none;
+}
+
+.pink--contacts__address {
+  margin-top: -20px;
+  padding-left: 1px;
+  padding-bottom: 34px;
+  text-align: center;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--contacts {
+    padding-bottom:  10px;
+  }
+  .pink--contacts__title-question,
+  .pink--contacts__title-answer {
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 300;
+    color: $pink--dark-grey;
+  }
+
+  .pink--contacts__title-question {
+    margin-left: 147px;
+    margin-top: 56px;
+  }
+
+  .pink--contacts__title-answer {
+    margin-left: 157px;
+    margin-bottom: 28px;
+  }
+
+  .pink--contacts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pink--contacts__phone--wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pink--contacts__phone--title {
+    margin-left: 66px;
+  }
+
+  .pink--contacts__phone {
+    margin-top: -12px;
+    padding-left: 67px;
+  }
+
+  .pink--contacts__mail--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 56px;
+    margin-top: 6px;
+  }
+
+  .pink--contacts__mail--title {
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+
+  .pink--contacts__address--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 226px;
+    margin-top: 25px;
+  }
+
+  .pink--contacts__address {
+    padding-bottom: 29px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+    .pink--contacts__title-question,
+    .pink--contacts__title-answer {
+      font-size: 50px;
+    }
+
+    .pink--contacts__title-question {
+      margin-left: 369px;
+      margin-top: 80px;
+    }
+
+    .pink--contacts__title-answer {
+      margin-left: 383px;
+      margin-top: -18px;
+    }
+
+    .pink--contacts__address--wrapper {
+      order: 0;
+      margin-left: 110px;
+      margin-top: 19px;
+    }
+
+    .pink--contacts__mail--wrapper {
+      order: 1;
+    }
+
+    .pink--contacts__phone--title {
+      margin-left: 178px;
+      margin-top: 33px;
+    }
+
+    .pink--contacts__phone {
+      margin-top: 8px;
+      padding-left: 178px;
+    }
+
+    .pink--contacts__address {
+      margin-top: 9px;
+    }
+
+    .pink--contacts__mail--title {
+      padding-left: 5px;
+      padding-top: 21px;
+    }
+
+    .pink--contacts__mail {
+      margin-top: 10px;
+      margin-left: 39px;
+    }
+}

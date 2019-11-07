@@ -13,7 +13,7 @@
     @include link-reset;
     padding-top: 10px;
     padding-left: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 18px;
 }
 
 .main-header__nav-btn-burger--top,
@@ -37,4 +37,42 @@
 
 .main-header__nav-btn-burger--bottom-active {
     transform: rotate(-45deg);
+}
+
+.main-header__logo {
+    position: relative;
+    top: -50px;
+    width: 64px;
+    margin-left: 78%;
+    margin-right: auto;
+}
+
+@media(min-width: $tablet-width) {
+    .main-header__logo {
+        margin-left: 90%;
+    }
+}
+
+@media(min-width: $desktop-width) {
+    .main-header {
+      position: sticky;
+      top: 0;
+      z-index: 12;
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 0px 6px 18px -1px rgba(0, 0, 39, 0.75);
+    }
+    
+    .main-header__nav-btn-burger,
+    .main-header__nav-btn-burger--top,
+    .main-header__nav-btn-burger--center,
+    .main-header__nav-btn-burger--bottom {
+        display: none;
+    }
+
+    .main-header__logo {
+        top: 0;
+        width: 83px;
+        margin-left: 15px;
+    }
 }

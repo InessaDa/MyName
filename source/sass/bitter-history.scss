@@ -21,14 +21,6 @@
     color: $bitter-gray-text;
 }
 
-.bitter-history--paragraph:last-child {
-    padding-bottom: 122%;
-    background-image: url(../img/sw-bitter/bitter-portrait.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
-}
-
 @media (min-width: $tablet-width) {
     .bitter-history {
         position: relative;
@@ -38,6 +30,8 @@
 
     .bitter-history--title {
         padding-top: 135px;
+        padding-left: 65px;
+        padding-right: 65px;
         font-size: 30px;
         line-height: 40px;
     }
@@ -51,5 +45,42 @@
         position: absolute;
         left: 50%;
         width: 352px;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .bitter-history {
+        padding-bottom: 27px;
+        background-color: white;
+    }
+
+    .bitter-history--title {
+        margin-top: -89px;
+        padding-top: 0;
+        padding-bottom: 55px;
+        padding-right: 532px;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: start;
+        background-color: white;
+    }
+
+    .bitter-history--paragraph {
+        position: relative;
+        z-index: 3;
+        margin: 0px;
+        margin-right: 515px;
+        padding-top: 25px;
+        background-color: $bitter-gray-back;
+    }
+
+    .bitter-history--paragraph:last-of-type {
+        padding-bottom: 33px;
+    }
+
+    .bitter-history--portrait {
+        left: 654px;
+        top: 149px;
+        width: 543px;
     }
 }

@@ -58,7 +58,7 @@
         margin-left: 95px;
         background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
         background-repeat: no-repeat;
-        background-position: 90%;
+        background-position: 97%;
     } 
 
     .bitter-order-link__fifth-btn {
@@ -81,5 +81,26 @@
         background-image: url(../img/sw-bitter/bitter-btn-arrow.png);
         background-repeat: no-repeat;
         background-position: 87%;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .bitter-order-link__first-btn {
+        width: 479px;
+        margin-top: 19px;
+        margin-left: 721px;
+        background-position: 357px 28px;
+    }
+
+    .bitter-order-link__third-btn {
+        width: 426px;
+        margin-left: 461px;
+       margin-top: -63px;
+    }
+
+    .bitter-order-link__fourth-btn {
+        margin-top: -73px;
+        margin-left: 555px;
+        width: 606px;
     }
 }

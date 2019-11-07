@@ -1,0 +1,123 @@
+.pink--users-photo {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.pink--users-photo__image {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.pink--users-photo__description {
+  margin-right: 20px;
+  padding-left: 17px;
+  background-color: $pink--light-grey;
+}
+
+.pink--users-photo__description--title {
+  margin: 0;
+  padding-top: 18px;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+  color: $pink--dark-grey;
+  letter-spacing: 1px;
+}
+
+.pink--users-photo__description--time {
+  margin-left: -3px;
+  letter-spacing: 0;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $pink--dark-grey;
+}
+
+.pink--users-photo__description--text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $pink--dark-grey;
+}
+
+.pink--users-photo__description--likes {
+  position: relative;
+  margin: 0;
+  padding-left: 32px;
+  padding-top:  9px;
+  padding-bottom: 19px;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $pink--fuchsia;
+}
+
+.pink--users-photo__description--likes-icon {
+  position: absolute;
+  left: 1px;
+  top: 14px;
+  fill: $pink--fuchsia;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--users-photo__description {
+    position: relative;
+    margin-right: 0;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 264px;
+    min-height: 135px;
+  }
+
+  .pink--users-photo__description--title {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 22px;
+  }
+
+  .pink--users-photo__description--text {
+    padding-left:  10px;
+  }
+
+  .pink--users-photo__description--likes {
+    position: absolute;
+    top: 98px;
+    padding-left: 10px;
+  }
+
+  .pink--users-photo__description--likes-icon {
+    left: 238px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--users-photo {
+    padding-bottom: 31px;
+  }
+
+  .pink--users-photo__description--title {
+    padding-left: 12px;
+    padding-top: 24px;
+  }
+
+  .pink--users-photo__description--time {
+    margin-left: -6px;
+    padding-left: 3px;
+    letter-spacing: 0;
+  }
+
+  .pink--users-photo__description--text {
+    padding-left: 12px;
+  }
+
+  .pink--users-photo__description--likes {
+    padding-left: 11px;
+  }
+}

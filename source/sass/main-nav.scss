@@ -1,14 +1,17 @@
 .main-nav--list {
     @include list-reset;
+    position: relative;
     width: 0;
     margin-left: -250px;
-    transition: all 1s ease;
+    margin-top: -47px;
+    transition: width 1s ease;
 }
 
 .main-nav--list-active {
-   width: 92%;
+   width: 100%;
    height: 100%;
    margin-left: 0;
+   z-index: 15;
 }
 
 
@@ -41,9 +44,9 @@
 .main-nav--list__item-link {
     @include link-reset;
     padding-left: 25px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-right: 25px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: white;
     background: rgba(0, 0, 0, 0.5);
     transition: background-color 2s ease;
@@ -51,14 +54,10 @@
 
 
 @media (min-width: $tablet-width) {
-    .main-nav--list-active {
-        width: 75%;
-    }
-
     .main-nav--list__item-link {
-        padding-top: 55px;
+        padding-top: 75px;
         padding-left: 45px;
-        padding-bottom: 55px;
+        padding-bottom: 75px;
         font-size: 22px;
         font-weight: 300;
     }
@@ -72,10 +71,40 @@
 }
 
 @media (min-width: $desktop-width) {
+    .main-nav {
+        flex-grow: 2;
+    }
+
+    .main-nav--list {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0;
+        transition: none;
+    }
+
+    .main-nav--list__item {
+        border-bottom: none;
+    }
+
+    .main-nav--list__item:nth-child(1),
+    .main-nav--list__item:nth-child(2),
+    .main-nav--list__item:nth-child(3),
+    .main-nav--list__item:nth-child(4) {
+        background-image: none;
+    }
+
     .main-nav--list__item-link {
-        padding-top: 90px;
+        padding-top: 5px;
         padding-left: 65px;
-        padding-bottom: 90px;
+        padding-bottom: 17px;
         font-size: 28px;
+        background: none;
+        transition: text-shadow 0.2s ease-in;
+    }
+
+    .main-nav--list__item-link:hover {
+        background: none;
+        text-shadow: 0 0 3px white;
     }
 }

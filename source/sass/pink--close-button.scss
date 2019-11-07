@@ -1,0 +1,49 @@
+.pink--close-button {
+  position: relative;
+  padding-left: 176px;
+  font-size: 0;
+  outline: none;
+}
+
+.pink--close-button__icon {
+  position: relative;
+  top: -7px;
+  left: 7px;
+}
+
+.pink--close-button__icon--hidden {
+  display: none;
+}
+
+.pink--close-button__icon:hover,
+.pink--close-button__icon:focus {
+  path {
+    fill: $pink--fuchsia;
+  }
+}
+
+.pink--close-button__icon:active {
+  opacity: 0.3;
+}
+
+@media (min-width: $pink--tablet-width) {
+  .pink--close-button {
+    padding-left: 444px;
+  }
+
+  .pink--close-button__icon {
+    top: 10px;
+    left: 7px;
+  }
+}
+
+@media (min-width: $pink--desktop-width) {
+  .pink--close-button {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .pink--close-button__icon {
+    display: none;
+  }
+}

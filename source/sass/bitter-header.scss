@@ -60,3 +60,10 @@
     }
 }
 
+@media (min-width: $desktop-width) {
+    .bitter-header {
+        max-width: 900px;
+        padding-left: 150px;
+    }
+}
+

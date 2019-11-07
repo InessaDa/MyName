@@ -16,6 +16,24 @@
   font-weight: 300;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/opensans.woff), url(../fonts/opensans.woff2);
+  font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/opensansbold.woff), url(../fonts/opensansbold.woff2);
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url(../fonts/opensanslight.woff), url(../fonts/opensanslight.woff2);
+    font-weight: 300;
+  }
+
 img {
   width: 100%;
 }
@@ -37,6 +55,10 @@ img {
     display: none;
   }
 
+  .bitter-desktop-only {
+    display: none;
+  }
+
   @media (min-width: $tablet-width) {
     .bitter__mobile-only {
       display: none;
@@ -45,4 +67,55 @@ img {
     .bitter-tablet-only {
       display: block;
     }
+
+    .bitter-desktop-only {
+      display: none;
+    }
   }
+
+  @media (min-width: $desktop-width) {
+    .bitter-tablet-only {
+      display: none;
+    }
+
+    .bitter-desktop-only {
+      display: block;
+    }
+  }
+  
+  .pink--line-break--tablet {
+      display: none;
+    }
+  
+  .pink--line-break--desktop {
+      display: none;
+    }
+  
+    .pink--desktop-only-text {
+      display: none;
+    }
+  
+    @media (min-width: $pink--tablet-width) {
+      .pink--line-break--mobile {
+        display: none;
+      }
+  
+      .pink--line-break--tablet {
+        display: block;
+      }
+    }
+  
+    @media (min-width: $pink--desktop-width) {
+    .pink--line-break--tablet {
+      display: none;
+    }
+  
+    .pink--line-break--desktop {
+      display: block;
+     }
+  
+     .pink--desktop-only-text {
+      display: inline;
+    }
+    }
+  

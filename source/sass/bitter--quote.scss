@@ -66,3 +66,22 @@
         left: 56%;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter--quote {
+        margin: 0 auto;
+        width: 770px;
+        padding-left: 233px;
+        padding-right: 266px;
+        padding-bottom: 201px;
+    }
+
+    .bitter--quote__text {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .bitter--quote__date {
+        top: 336px;
+    }
+}
