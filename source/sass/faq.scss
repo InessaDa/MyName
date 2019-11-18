@@ -1,0 +1,432 @@
+.faq-content {
+    height: 100vh;
+    margin-top: -24px;
+}
+
+.faq__list {
+    @include list-reset;
+    position: relative;
+}
+
+.faq__list-item:nth-child(1) {
+    position: absolute;
+    padding: 33px;
+    margin-left: 55px;
+    background-color: orangered;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s ease;
+    animation: moves 4s;
+    animation-fill-mode: forwards;
+}
+
+.faq__list-item:nth-child(2) {
+    position: absolute;
+    padding: 33px;
+    margin-left: 55px;
+    background-color: olivedrab;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s ease;
+    animation: movesFirst 4s;
+    animation-fill-mode: both;
+}
+
+.faq__list-item:nth-child(3) {
+    position: absolute;
+    width: 50px;
+    padding: 33px;
+    margin-left: 55px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s ease;
+    animation: movesSec 4s;
+    animation-fill-mode: forwards;
+}
+
+.faq__list-item:nth-child(4) {
+    position: absolute;
+    padding: 33px;
+    margin-left: 55px;
+    background-color: fuchsia;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: bamps 4s;
+    animation-fill-mode: both;
+}
+
+.faq__list-item:nth-child(5) {
+    position: absolute;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 55px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(6) {
+    position: absolute;
+    left: 132px;
+    top: 132px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(7) {
+    position: absolute;
+    left: 212px;
+    top: 40px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(8) {
+    position: absolute;
+    top: 210px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(9) {
+    position: absolute;
+    top: 310px;
+    left: 237px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(10) {
+    position: absolute;
+    top: 217px;
+    left: 200px;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: $main-gray;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+    animation: rainbowQuestionmark 4s;
+    animation-fill-mode: backwards;
+}
+
+.faq__list-item:nth-child(11),
+.faq__list-item:nth-child(12),
+.faq__list-item:nth-child(13),
+.faq__list-item:nth-child(14) {
+    display: none;
+}
+
+
+@media(min-width: $tablet-width) {
+    .faq__list {
+        padding: 55px;
+    }
+    .faq__list-item:nth-child(1) {
+       z-index: 3;
+       margin-left: 208px;
+       font-size: 25px;
+    }
+
+    .faq__list-item:nth-child(2) {
+        margin-top: -33px;
+        font-size: 44px;
+    }
+
+    .faq__list-item:nth-child(3) {
+        font-size: 28px;
+    }
+
+    .faq__list-item:nth-child(4) {
+        font-size: 30px;
+    }
+
+    .faq__list-item:nth-child(5) {
+        position: absolute;
+        padding-left: 22px;
+        padding-right: 22px;
+        margin-left: 55px;
+        color: $main-gray;
+        font-size: 39px;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+        animation: rainbowQuestionmark 4s;
+        animation-fill-mode: backwards;
+    }
+
+
+    .faq__list-item:nth-child(6) {
+        position: absolute;
+        left: 490px;
+        top: 132px;
+        padding: 65px;
+        font-size: 44px;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+    }
+
+    .faq__list-item:nth-child(7) {
+        position: absolute;
+        left: 132px;
+        top: 132px;
+        padding-left: 65px;
+        padding-right: 65px;
+        font-size: 28px;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+    }
+
+    .faq__list-item:nth-child(8) {
+        position: absolute;
+        top: 579px;
+        padding-left: 22px;
+        padding-right: 22px;
+        color: $main-gray;
+        font-size: 30px;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+        animation: rainbowQuestionmark 4s;
+        animation-fill-mode: backwards;
+    }
+    
+    .faq__list-item:nth-child(9) {
+        position: absolute;
+        left: 580px;
+        top: 380px;
+        padding-left: 22px;
+        padding-right: 22px;
+        color: $main-gray;
+        font-size: 60px;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+        animation: rainbowQuestionmark 4s;
+        animation-fill-mode: backwards;
+    }
+    
+    .faq__list-item:nth-child(10) {
+        position: absolute;
+        top: 360px;
+        left: 136px;
+        padding-left: 22px;
+        padding-right: 22px;
+        color: $main-gray;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+        animation: rainbowQuestionmark 4s;
+        animation-fill-mode: backwards;
+    }
+
+    .faq__list-item:nth-child(11) {
+        position: absolute;
+        top: 58px;
+        left: 300px;
+        display: block;
+        padding-left: 22px;
+        padding-right: 22px;
+        color: $main-gray;
+        font-size: 40px;
+        background-color: transparent;
+        border: none;
+        border-radius: 50%;
+        transition: all 1s ease-in-out;
+        animation: rainbowQuestionmark 4s;
+        animation-fill-mode: backwards;
+    }
+}
+
+@media (min-width: $desktop-width) {
+    .faq__list {
+        padding-left: 10%;
+    }
+
+    .faq__list-item:nth-child(1) {
+        margin-left: 500px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-size: 33px;
+    }
+
+    .faq__list-item:nth-child(3) {
+        margin-top: 115px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .faq__list-item:nth-child(4) {
+        margin-left: 272px;
+        font-size: 32px;
+    }
+}
+
+
+
+
+@keyframes moves {
+    from {top: -200px }
+    to { transform: translateY(300px)}
+}
+
+@keyframes movesFirst {
+    from {top: -200px}
+    to {transform: translate(31px, 200px)}
+}
+
+@keyframes movesSec {
+    form {top: -200px}
+    to {transform: translate(-55px, 190px) rotate(360deg)}
+}
+
+@keyframes grooves {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bamps {
+    0% {
+       top: -200px;
+    }
+
+    25% {
+        transform: translate(12px, 290px) rotate(360deg)
+    }
+
+    50% {
+        transform: translate(22px, 350px) rotate(90deg)
+    }
+
+    100% {
+        top: 410px;
+    }
+}
+
+@keyframes rainbowQuestionmark {
+    0% {
+        padding-left: 22px;
+        padding-right: 22px;
+        border: 1px dashed white;
+        color: black;
+    }
+
+    10% {
+        border: 1px dashed white;
+        color: black;
+        background-color: red;
+    }
+
+    20% {
+        border: none;
+    }
+
+    30% {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 1px dashed white;
+        color: black;
+        background-color: orangered;
+    }
+
+    35% {
+        border: none;
+    }
+
+    40% {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 1px dashed white;
+        color: black;
+        background-color: yellow;
+    }
+
+    50% {
+       border: none;
+       color: black;
+       background-color: green;
+    }
+
+    60% {
+        padding-left: 39px;
+        padding-right: 39px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        border: 1px dashed white;
+        color: black;
+        background-color: darkturquoise;
+    }
+
+    70% {
+        border: none;
+        color: black;
+        background-color: blue;
+    }
+
+    80% {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        border: 1px dashed white;
+        color: black;
+        background-color: darkmagenta;
+    }
+
+    90% {
+        border: none;
+    }
+
+    100% {
+        padding-left: 48px;
+        padding-right: 48px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border: 1px dashed white;
+        color: $main-gray;
+    }
+}

@@ -52,6 +52,10 @@
     transition: background-color 2s ease;
 }
 
+.main-nav--list__item-faq-link {
+    color: red;
+}
+
 
 @media (min-width: $tablet-width) {
     .main-nav--list__item-link {

@@ -56,3 +56,31 @@
         line-height: 20px;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-cooking-way {
+        position: relative;
+        width: 610px;
+        margin-top: 160px;
+        margin-left: 500px;
+        background-color: white;
+    }
+
+    .bitter-cooking-way::after {
+        content: "";
+        position: absolute;
+        width: 702px;
+        height: 740px;
+        top: -76px;
+        left: -449px;
+        z-index: -1;
+        background-image: url(../img/sw-bitter/bitter-botle-desktop-bg.jpg);
+        background-position-x: -196px;
+
+    }
+
+    .bitter-cooking-way--title {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

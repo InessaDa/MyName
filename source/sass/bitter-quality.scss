@@ -108,3 +108,63 @@
         font-size: 16px;
     }
 }
+
+@media (min-width: $desktop-width) {
+    .bitter-quality--title {
+        padding-left: 90px;
+        font-size: 40px;
+        text-align: start;
+    }
+    
+    .bitter-quality--warranty {
+        padding-right: 553px;
+        text-align: start;
+    }
+
+    .bitter-quality img {
+        position: relative;
+        top: -267px;
+    }
+
+    .bitter-quality__wrapper {
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        margin-bottom: -261px;
+    }
+
+    .bitter-quality--addition__wrap {
+        width: 51%;
+        height: 343px;
+    }
+
+    .bitter-quality--addition-title {
+        position: absolute;
+        z-index: 2;
+        padding-left: 100px;
+        background: white;
+
+    }
+
+    .bitter-quality--addition-title::before {
+        width: 68px;
+        height: 289px;
+        left: 20px;
+        z-index: -1;
+        border-bottom: 2px solid $bitter-light-green;
+        border-left: 2px solid $bitter-light-green;
+    }
+
+    .bitter-quality--addition-title::after {
+        width: 498px;
+        height: 289px;
+        left: 87px;
+        z-index: -1;
+        border-right: 2px solid $bitter-light-green;
+        border-bottom: 2px solid $bitter-light-green;
+    }
+
+    .bitter-quality--addition-description {
+        padding-left: 97px;
+        padding-top: 55px;
+    }
+}

@@ -74,6 +74,9 @@
         padding-left: 233px;
         padding-right: 266px;
         padding-bottom: 201px;
+        background-image: url(../img/sw-bitter/bitter-desktop-left-bg.png), url(../img/sw-bitter/bitter-desktop-right-bg.png);
+        background-repeat: no-repeat;
+        background-position: left, right;
     }
 
     .bitter--quote__text {
