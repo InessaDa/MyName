@@ -345,88 +345,50 @@
 
 @keyframes rainbowQuestionmark {
     0% {
-        padding-left: 22px;
-        padding-right: 22px;
-        border: 1px dashed white;
         color: black;
     }
 
     10% {
-        border: 1px dashed white;
-        color: black;
-        background-color: red;
+        color: red;
     }
 
     20% {
-        border: none;
+        color: rosybrown;
     }
 
     30% {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        border: 1px dashed white;
-        color: black;
-        background-color: orangered;
+        color: orangered;
     }
 
     35% {
-        border: none;
+        color: olivedrab;
     }
 
     40% {
-        padding-left: 35px;
-        padding-right: 35px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        border: 1px dashed white;
-        color: black;
-        background-color: yellow;
+        color: yellowgreen;
     }
 
     50% {
-       border: none;
-       color: black;
-       background-color: green;
+       color: blue;
     }
 
     60% {
-        padding-left: 39px;
-        padding-right: 39px;
-        padding-top: 22px;
-        padding-bottom: 22px;
-        border: 1px dashed white;
-        color: black;
-        background-color: darkturquoise;
+        color: chocolate;
     }
 
     70% {
-        border: none;
-        color: black;
-        background-color: blue;
+        color: tomato;
     }
 
     80% {
-        padding-left: 45px;
-        padding-right: 45px;
-        padding-top: 22px;
-        padding-bottom: 22px;
-        border: 1px dashed white;
-        color: black;
-        background-color: darkmagenta;
+        color: darkmagenta;
     }
 
     90% {
-        border: none;
+        color: crimson;
     }
 
     100% {
-        padding-left: 48px;
-        padding-right: 48px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        border: 1px dashed white;
-        color: $main-gray;
+        color: goldenrod;
     }
 }
